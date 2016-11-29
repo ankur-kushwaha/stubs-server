@@ -1,0 +1,19 @@
+{
+    "response": {
+        "categoryId": 12,
+        "brandId": 2263,
+        "financials": {
+            "volumetricWeight": 200,
+            "netSellerPayable": -1848.786827755245,
+            "sdMarginAmount": 0.566,
+            "sdMarginPercent": 5.66,
+            "logisticCost": 949.44196,
+            "collectionCharges": 22.472,
+            "fulfillmentCharges": 886.3069,
+            "woodenPackagingCost": 0,
+            "customerDiscPercent": 0
+        }
+    },
+    "successful": true,
+    "errorMessage": null
+}

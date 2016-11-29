@@ -1,0 +1,48 @@
+{
+	"awbNumber": null,
+	"courierDetail": null,
+	"sdCommission": -168.2,
+	"fulfillmentFee": 0.0,
+	"fulfillmentFeeWaiver": 0.0,
+	"fulfillmentMode": null,
+	"marketingFee": 0.0,
+	"paymentCollectionFee": 0.0,
+	"courierFee": 0.0,
+	"merchantCut": -1328.2,
+	"subventionChargesVendorComponent":30,
+	"relatedTxns": [{
+		"txnType": "Packing Fee",
+		"txnAmount": -1328.2
+	},
+	{
+		"txnType": "Adjustments",
+		"txnAmount": 0.0
+	},
+	{
+		"txnType": "Net Payable",
+		"txnAmount": -1328.2
+	}],
+	"orderDate": null,
+	"shippedDate": null,
+	"deliveredDate": null,
+	"settlementDate": null,
+	"returnDate": null,
+	"serviceTaxAmount": -162.4,
+	"sellerFundedCashback": 0.0,
+	"sellerFundedDiscount": 0.0,
+	"packagingCharges": 0.0,
+	"processingCharges": 0.0,
+	"specialPackagingCharges": 0.0,
+	"kkCessAmount": null,
+	"sbCessAmount": -5.8,
+	"serviceTaxInclCess": -168.20000000000002,
+	"salesPrice": -1160.0,
+	"suboPaymentHistory": [],
+	"logisticsFeesForReturns": null,
+	"processingFeesForReturns": null,
+	"packagingFeesForReturns": null,
+	"specialPackagingFeesForReturns": null,
+	"fulfilmentFeesForReturns": null,
+	"paymentCollectionFeesForReturns": null,
+	"reverseLogisticsFeesForReturns": null
+}

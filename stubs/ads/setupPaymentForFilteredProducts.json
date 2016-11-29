@@ -1,0 +1,103 @@
+{
+    "successful": true,
+    "errorCode": null,
+    "errorMessage": null,
+    "data": {
+		"remainingAmountToDebit":10,
+		"totalCODDebited":100000,	
+		"ratingEligibility":true,
+		"recurringEnabled":true,
+		"minRating":2,
+        "campaigns": [{
+            "campaignId ": 12,
+            "campaignName": "CampName12",
+            "categoryUrl": "mobiles - tablets", 
+            "budget": 5000,
+            "cpc": 12
+        },{
+            "campaignId ": 12,
+            "campaignName": "CampName12",
+            "categoryUrl": "mobiles - tablets", 
+            "budget": 5000,
+            "cpc": 12
+        }, {
+            "campaignId ": 12,
+            "campaignName": "CampName12",
+            "categoryUrl": "mobiles - tablets", 
+            "budget": 5000,
+            "cpc": 12
+        }, {
+            "campaignId ": 12,
+            "campaignName": "CampName12",
+            "categoryUrl": "mobiles - tablets", 
+            "budget": 5000,
+            "cpc": 12
+        }, {
+            "campaignId ": 12,
+            "campaignName": "CampName12",
+            "categoryUrl": "mobiles - tablets", 
+            "budget": 5000,
+            "cpc": 12
+        }, {
+            "campaignId ": 12,
+            "campaignName": "CampName12",
+            "categoryUrl": "mobiles - tablets", 
+            "budget": 5000,
+            "cpc": 12
+        }, {
+            "campaignId ": 12,
+            "campaignName": "CampName12",
+            "categoryUrl": "mobiles - tablets", 
+            "budget": 5000,
+            "cpc": 12
+        }, {
+            "campaignId ": 12,
+            "campaignName": "CampName12",
+            "categoryUrl": "mobiles - tablets", 
+            "budget": 5000,
+            "cpc": 12
+        }, {
+            "campaignId ": 12,
+            "campaignName": "CampName12",
+            "categoryUrl": "mobiles - tablets", 
+            "budget": 5000,
+            "cpc": 12
+        }, {
+            "campaignId ": 12,
+            "campaignName": "CampName12",
+            "categoryUrl": "mobiles - tablets", 
+            "budget": 5000,
+            "cpc": 12
+        }, {
+            "campaignId ": 12,
+            "campaignName": "CampName12",
+            "categoryUrl": "mobiles - tablets", 
+            "budget": 5000,
+            "cpc": 12
+        }, {
+            "campaignId ": 12,
+            "campaignName": "CampName12",
+            "categoryUrl": "mobiles - tablets", 
+            "budget": 5000,
+            "cpc": 12
+        }, {
+            "campaignId ": 12,
+            "campaignName": "CampName12",
+            "categoryUrl": "mobiles - tablets", 
+            "budget": 5000,
+            "cpc": 12
+        }, {
+            "campaignId ": 12,
+            "campaignName": "CampName12",
+            "categoryUrl": "mobiles - tablets", 
+            "budget": 5000,
+            "cpc": 12
+        },  {
+            "campaignId ": 13,
+            "campaignName": "CampName13",
+            "categoryUrl": "mobiles - accessories", 
+            "budget": 15000,
+            "cpc": 9
+        }]
+    }
+}

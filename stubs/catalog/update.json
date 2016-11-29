@@ -1,0 +1,8 @@
+{
+  "inventoryUpdateResponse": null,
+  "pricingUpdateResponse": {
+    "success": true,
+    "message": "Success",
+    "ipmsFlag": true
+  }
+}

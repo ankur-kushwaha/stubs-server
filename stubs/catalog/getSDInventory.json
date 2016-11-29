@@ -1,0 +1,29 @@
+{
+	"successful": true,
+	"message": null,
+	"summary": {
+		"openingBalance": 197,
+		"countMap": {
+			"Shipped": -64,
+			"GRN": 200,
+			"Return Accepted (RTA)": 9
+		},
+		"closingBalance": 342,
+		"badInventory": 0,
+		"qcRejected": 0,
+		"goodInventory": 336,
+		"inboundInventory": 200,
+		"blockedInventory": 1
+	},
+	"records": [{
+		"createdDate": 1471330506000,
+		"facility": "FC-DEL-TIKRI-VL",
+		"transactionType": "Shipped",
+		"transactionCode": "18329366970",
+		"quantity": -1,
+		"stockBalance": 196,
+		"itemCodes": ["DL2205722"],
+		"asnNo": null
+	}],
+	"totalCount": 77
+}

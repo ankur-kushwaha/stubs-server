@@ -1,0 +1,45 @@
+{
+    "unreadNotifications": 164,
+    "lastNotification": 4,
+    "notifications": [{
+        "tagId": "4f57b18a-3e5c-4dcb-b825-1a05e2f22432",
+        "title": "Query Resolved",
+        "message": "Your query Login related issue has been resolved by snapdeal.",
+        "notificationUrl": "/#/myQueries/",
+        "notificationType": null,
+        "deliveredTime": 1469704522531,
+        "read": false
+    }, {
+        "tagId": "6fe84fca-4134-4fa0-99cf-0c0b17f2750e",
+        "title": "Query Resolved",
+        "message": "Your query Login related issue has been resolved by snapdeal.",
+        "notificationUrl": "/#/myQueries/",
+        "notificationType": null,
+        "deliveredTime": 1469704032934,
+        "read": false
+    }, {
+        "tagId": "c0cd971e-6238-4083-8077-111b87bdafbb",
+        "title": "Query Resolved",
+        "message": "Your query Account - Seller Account - Supc Related has been resolved by snapdeal.",
+        "notificationUrl": "/#/myQueries/",
+        "notificationType": null,
+        "deliveredTime": 1469702704031,
+        "read": false
+    }, {
+        "tagId": "9928d8b9-4659-4a2d-bfae-5886e6648b79",
+        "title": "Query Resolved",
+        "message": "Your query Login related issue has been resolved by snapdeal.",
+        "notificationUrl": "/#/myQueries/",
+        "notificationType": null,
+        "deliveredTime": 1469702619479,
+        "read": false
+    }, {
+        "tagId": "f7cb85b0-c107-4320-a5a8-73ccd0020f3d",
+        "title": "Query Resolved",
+        "message": "Your query Login related issue has been resolved by snapdeal.",
+        "notificationUrl": "/#/myQueries/",
+        "notificationType": null,
+        "deliveredTime": 1469700888094,
+        "read": false
+    }]
+}

@@ -1,0 +1,50 @@
+{
+  "totalRecords": 12,
+  "supcData": [
+    {
+      "supc": "SDL864500540",
+      "sku": "kjhj",
+      "productName": "myProduct-979",
+      "imageUrl": "http://qan3.sdlcdn.com/imgs/a/a/g/107x125/SDL864500540_1391490011_image1-5da7b.jpg",
+      "attributes": [
+        {
+          "name": "Form attribute",
+          "value": "qwqwqw"
+        },
+        {
+          "name": "color",
+          "value": "green"
+        }
+      ],
+      "sellingPrice": 10,
+      "mrp": null,
+      "qcRejected": 0,
+      "currentInventory": 1422,
+      "fulfillableInventory": 1079,
+      "unfulfillableInventory": 3,
+      "blockedInventory": 340,
+      "inboundInventory": 0
+    },
+    {
+      "snapshotCaptureTime": 1477465333553,
+      "supc": "SDL869858472",
+      "sku": "ct001",
+      "productName": "mobile_accessories_cam_1403",
+      "imageUrl": "http://qan3.sdlcdn.com/imgs/a/a/i/107x12d5/mobile-accessories-cam-1403-SDL869858472-1-0a056.jpg",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "Chargers"
+        }
+      ],
+      "sellingPrice": 90,
+      "mrp": null,
+      "qcRejected": null,
+      "currentInventory": 0,
+      "fulfillableInventory": 0,
+      "unfulfillableInventory": 0,
+      "blockedInventory": 0,
+      "inboundInventory": 0
+    }
+  ]
+}

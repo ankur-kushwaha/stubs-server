@@ -1,0 +1,25 @@
+{
+  "nextPaymentDate": 1474050600000,
+  "paymentCycle": "(7+10) Days",
+  "paymentCycleDesc": "Payment for the suborders delivered between 1st to 7th will be released on 17th",
+  "onHoldReason": "Others",
+  "onHold": false,
+  "dueDates": [
+    {
+      "dueDate": 1474050600000,
+      "holidayDate": false
+    },
+    {
+      "dueDate": 1474741800000,
+      "holidayDate": true
+    },
+    {
+      "dueDate": 1475433000000,
+      "holidayDate": false
+    },
+    {
+      "dueDate": 1476037800000,
+      "holidayDate": false
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "successful": true,
+  "errorCode": null,
+  "data": {
+    "categoryList": [
+      {
+        "url": "mobiles-tablets",
+        "name": "Tablets",
+        "productCount": 7461
+      },
+      {
+        "url": "camera-photo-printers-papers",
+        "name": "Photo Printers & Papers",
+        "productCount": 2534
+      },
+      {
+        "url": "computers-laptops",
+        "name": "Laptops",
+        "productCount": 92
+      },
+      {
+        "url": "mobiles-cases-covers",
+        "name": "Cases & Covers",
+        "productCount": 70
+      },
+      {
+        "url": "appliances-home",
+        "name": "Home Appliances",
+        "productCount": 49
+      },
+      {
+        "url": "mobiles-mobile-phones",
+        "name": "Mobile Phones",
+        "productCount": 28
+      },
+      {
+        "url": "books-religion-spirituality",
+        "name": "Religion and Spirituality",
+        "productCount": 25
+      },
+      {
+        "url": "lifestyle-watch",
+        "name": "Watches",
+        "productCount": 23
+      },
+      {
+        "url": "jewelry-silver",
+        "name": "Silver Jewellery",
+        "productCount": 23
+      },
+      {
+        "url": "appliances-air-conditioners",
+        "name": "Air Conditioner",
+        "productCount": 23
+      },
+      {
+        "url": "universalsubcat",
+        "name": "Universal Subcategory",
+        "productCount": 23
+      },
+      {
+        "url": "home-kitchen-bar-glassware",
+        "name": "Bar & Glassware",
+        "productCount": 17
+      },
+      {
+        "url": "books-arts",
+        "name": "Arts",
+        "productCount": 14
+      },
+      {
+        "url": "footwear",
+        "name": "Footwear",
+        "productCount": 12
+      },
+      {
+        "url": "general-frames-eyeglasses",
+        "name": "EyeFrames",
+        "productCount": 8
+      },
+      {
+        "url": "cameracat",
+        "name": "Camera",
+        "productCount": 8
+      },
+      {
+        "url": "men-apparel-tshirts",
+        "name": "T Shirts",
+        "productCount": 7
+      },
+      {
+        "url": "appliances-induction-cookers",
+        "name": "Induction Cookers",
+        "productCount": 7
+      },
+      {
+        "url": "electronic-tv-accessories",
+        "name": "Televisions",
+        "productCount": 6
+      },
+      {
+        "url": "shbtesting-testsubone",
+        "name": "Testing subcatone",
+        "productCount": 6
+      },
+      {
+        "url": "shbtesting-testsubfive",
+        "name": "Shb Testing5",
+        "productCount": 6
+      },
+      {
+        "url": "perfumes-beauty-fragrances",
+        "name": "Perfumes",
+        "productCount": 5
+      },
+      {
+        "url": "accessoriescat",
+        "name": "Accessories",
+        "productCount": 5
+      },
+      {
+        "url": "shbtesting-testsubthree",
+        "name": "Shb Testing3",
+        "productCount": 5
+      },
+      {
+        "url": "electronic-telephones",
+        "name": "Landline Phones",
+        "productCount": 4
+      },
+      {
+        "url": "cameras-digital-cameras",
+        "name": "Digital Cameras",
+        "productCount": 4
+      },
+      {
+        "url": "perfumes-imported",
+        "name": "Imported Fragrances",
+        "productCount": 4
+      },
+      {
+        "url": "shopping3",
+        "name": "shopping3",
+        "productCount": 4
+      },
+      {
+        "url": "jewelry",
+        "name": "Jewellery",
+        "productCount": 3
+      },
+      {
+        "url": "lifestyle-sunglasses",
+        "name": "Sunglasses",
+        "productCount": 3
+      },
+      {
+        "url": "mobiles-multi-sim",
+        "name": "Multi SIM",
+        "productCount": 3
+      },
+      {
+        "url": "mobiles-accessories",
+        "name": "mobiles-accessories",
+        "productCount": 3
+      },
+      {
+        "url": "health-nutrition",
+        "name": "Nutrition & Supplements",
+        "productCount": 3
+      },
+      {
+        "url": "mobiles-screen-guards",
+        "name": "Screen Guards",
+        "productCount": 3
+      },
+      {
+        "url": "shopping2",
+        "name": "shopping2",
+        "productCount": 3
+      },
+      {
+        "url": "shbtesting-testsubtwo",
+        "name": "Testing subcat2",
+        "productCount": 3
+      },
+      {
+        "url": "computers-desktops",
+        "name": "Desktops",
+        "productCount": 2
+      },
+      {
+        "url": "appliances-emergency-lights-cfls",
+        "name": "Emergency Light & CFLs",
+        "productCount": 2
+      },
+      {
+        "url": "electronic-headphones-earphones",
+        "name": "Headphones & Earphones",
+        "productCount": 2
+      },
+      {
+        "url": "jewelry-nose-pins",
+        "name": "Nosepins",
+        "productCount": 2
+      },
+      {
+        "url": "men-apparel-sweaters",
+        "name": "Sweaters",
+        "productCount": 2
+      },
+      {
+        "url": "books-cooking",
+        "name": "Cooking",
+        "productCount": 2
+      },
+      {
+        "url": "books-travel",
+        "name": "Travel",
+        "productCount": 2
+      },
+      {
+        "url": "health-foods",
+        "name": "Health Foods",
+        "productCount": 2
+      },
+      {
+        "url": "electronicg-mobile-phones",
+        "name": "Mobile Phones",
+        "productCount": 2
+      },
+      {
+        "url": "appliances-testqa",
+        "name": "testqa",
+        "productCount": 2
+      },
+      {
+        "url": "sweetscat",
+        "name": "Sweets",
+        "productCount": 2
+      },
+      {
+        "url": "kids-toys-collectible-toys",
+        "name": "Collectible Toys",
+        "productCount": 1
+      },
+      {
+        "url": "mobiles-gsm",
+        "name": "GSM Handsets",
+        "productCount": 1
+      },
+      {
+        "url": "perfumes-beauty-skin-care",
+        "name": "Skin Care",
+        "productCount": 1
+      },
+      {
+        "url": "computers-pen-drives",
+        "name": "Pen Drives",
+        "productCount": 1
+      },
+      {
+        "url": "camera-analog-cameras",
+        "name": "Analog Cameras",
+        "productCount": 1
+      },
+      {
+        "url": "men-apparel-suitings-shirtings",
+        "name": "Suits & Blazers",
+        "productCount": 1
+      },
+      {
+        "url": "men-apparel-shorts-cargos",
+        "name": "Shorts & Cargos",
+        "productCount": 1
+      },
+      {
+        "url": "home-kitchen-microwave-cooking",
+        "name": "Microwave Cooking",
+        "productCount": 1
+      },
+      {
+        "url": "mobiles-memory-cards",
+        "name": "Memory Cards",
+        "productCount": 1
+      },
+      {
+        "url": "appliances-juicer-mixer-grinders",
+        "name": "Juicer Mixer Grinders",
+        "productCount": 1
+      },
+      {
+        "url": "appliances-rice-cookers-steamers",
+        "name": "Cookers & Steamers",
+        "productCount": 1
+      },
+      {
+        "url": "computers-cooling-pads",
+        "name": "Cooling Pads/Laptop Tables",
+        "productCount": 1
+      },
+      {
+        "url": "computers-routers-modems",
+        "name": "Routers & Modems",
+        "productCount": 1
+      },
+      {
+        "url": "cameras-memory-cards",
+        "name": "Memory Cards",
+        "productCount": 1
+      },
+      {
+        "url": "health-devices",
+        "name": "Health Devices",
+        "productCount": 1
+      },
+      {
+        "url": "computers-data-cards",
+        "name": "Data Cards",
+        "productCount": 1
+      },
+      {
+        "url": "jewelry-coins-bars",
+        "name": "Gold Coins & Bars",
+        "productCount": 1
+      },
+      {
+        "url": "appliances-imported",
+        "name": "Imported Appliances",
+        "productCount": 1
+      },
+      {
+        "url": "watches-men",
+        "name": "Men's Watches",
+        "productCount": 1
+      },
+      {
+        "url": "musical-instruments-guitars",
+        "name": "Guitars & Accessories",
+        "productCount": 1
+      },
+      {
+        "url": "entertainment-movies-regional",
+        "name": "Regional Movies",
+        "productCount": 1
+      },
+      {
+        "url": "entertainment-tv-shows",
+        "name": "TV Shows",
+        "productCount": 1
+      },
+      {
+        "url": "gaming-accessories",
+        "name": "Gaming Accessories",
+        "productCount": 1
+      },
+      {
+        "url": "food-beverages-cakes",
+        "name": "Cakes",
+        "productCount": 1
+      },
+      {
+        "url": "kitchen-bathroom-fittings-showers",
+        "name": "Showers",
+        "productCount": 1
+      },
+      {
+        "url": "herfashion-handbags-wallets",
+        "name": "Womens Handbags",
+        "productCount": 1
+      },
+      {
+        "url": "electronicg-mobiles-accessories",
+        "name": "Accessories",
+        "productCount": 1
+      },
+      {
+        "url": "samsungmobile",
+        "name": "Samsungmobile",
+        "productCount": 1
+      },
+      {
+        "url": "games-discontinue",
+        "name": "Games discontinue",
+        "productCount": 1
+      }
+    ]
+  }
+}

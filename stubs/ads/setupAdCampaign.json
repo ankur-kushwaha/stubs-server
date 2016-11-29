@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "data": {
+    "campaignIds": [
+      2005,
+      4440
+    ],
+    "loanAccepted": true,
+    "campaignBudget": 5000
+  },
+  "code": 200
+}

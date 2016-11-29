@@ -1,0 +1,20 @@
+{
+    "responseMetadata": {
+        "requestId": "7d68cf48-e117-48d3-a4cd-bfda2319f257",
+        "message": "success",
+        "client": null,
+        "responseTime": 0,
+        "uri": "/sellers/states"
+    },
+    "data": {
+        "sellerCode": "e1aaf3",
+        "currentState": {
+            "stateName": "CATALOG",
+            "stateAttributes": {
+                "inventory_updated": "true",
+                "price_updated": "true"
+            }
+        },
+        "createdAt": 1468202330865
+    }
+}

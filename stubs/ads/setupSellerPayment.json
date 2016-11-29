@@ -1,0 +1,64 @@
+{
+  "status": "ok",
+  "data": {
+    "campaigns": [
+      {
+        "campaignName": "Campaign Name",
+        "totalBudget": 0,
+        "recurringBudget": 5000,
+        "priceUnit": 5,
+        "priceType": "CPC"
+      },
+      {
+        "campaignName": "Campaign Name",
+        "totalBudget": 0,
+        "recurringBudget": 5000,
+        "priceUnit": 5,
+        "priceType": "CPC"
+      },
+      {
+        "campaignName": "Campaign Name",
+        "totalBudget": 0,
+        "recurringBudget": 5000,
+        "priceUnit": 5,
+        "priceType": "CPC"
+      },
+      {
+        "campaignName": "Campaign Name",
+        "totalBudget": 0,
+        "recurringBudget": 5000,
+        "priceUnit": 5,
+        "priceType": "CPC"
+      },
+      {
+        "campaignName": "Campaign Name",
+        "totalBudget": 0,
+        "recurringBudget": 5000,
+        "priceUnit": 5,
+        "priceType": "CPC"
+      },
+      {
+        "campaignName": "Campaign Name",
+        "totalBudget": 0,
+        "recurringBudget": 5000,
+        "priceUnit": 5,
+        "priceType": "CPC"
+      },
+      {
+        "campaignName": "Campaign Name",
+        "totalBudget": 0,
+        "recurringBudget": 5000,
+        "priceUnit": 5,
+        "priceType": "CPC"
+      }
+    ],
+    "topUpEnabled": true,
+    "topUpInterval": "WEEKLY",
+    "loanAccepted": true,
+    "loanAmout": 5000,
+    "campaignBudget": 5000,
+    "totalTaxPrecentage": 15,
+    "codDebited": 10000
+  },
+  "code": 200
+}

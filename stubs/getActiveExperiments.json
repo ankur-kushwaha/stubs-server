@@ -1,0 +1,12 @@
+{
+    "experimentBucketPairs": [{
+        "bucketName": "showSnapshotTab",
+        "experimentName": "sdPlusInventory"
+    }, {
+        "bucketName": "sellerCodes",
+        "experimentName": "Quality-Score-for-WINGS-Seller"
+    }, {
+        "bucketName": "showBulkEdit",
+        "experimentName": "bulk-edit"
+    }]
+}

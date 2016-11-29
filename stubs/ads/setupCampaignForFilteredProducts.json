@@ -1,0 +1,104 @@
+{
+  "successful": true,
+  "errorCode": null,
+  "errorMessage": null,
+  "data": {
+    "campaigns": [
+      {
+        "campaignId": 12,
+        "campaignName": "CampName12",
+        "categoryUrl": "mobiles-mobile-phones",
+        "budget": 5000,
+        "cpc": 12
+      },
+      {
+        "campaignId": 12,
+        "campaignName": "CampName12",
+        "categoryUrl": "mobiles - tablets",
+        "budget": 5000,
+        "cpc": 12
+      },
+      {
+        "campaignId": 12,
+        "campaignName": "CampName12",
+        "categoryUrl": "mobiles - tablets",
+        "budget": 5000,
+        "cpc": 12
+      },
+      {
+        "campaignId": 12,
+        "campaignName": "CampName12",
+        "categoryUrl": "mobiles - tablets",
+        "budget": 5000,
+        "cpc": 12
+      },
+      {
+        "campaignId": 12,
+        "campaignName": "CampName12",
+        "categoryUrl": "mobiles - tablets",
+        "budget": 5000,
+        "cpc": 12
+      },
+      {
+        "campaignId": 12,
+        "campaignName": "CampName12",
+        "categoryUrl": "mobiles - tablets",
+        "budget": 5000,
+        "cpc": 12
+      },
+      {
+        "campaignId": 12,
+        "campaignName": "CampName12",
+        "categoryUrl": "mobiles - tablets",
+        "budget": 5000,
+        "cpc": 12
+      },
+      {
+        "campaignId": 12,
+        "campaignName": "CampName12",
+        "categoryUrl": "mobiles - tablets",
+        "budget": 5000,
+        "cpc": 12
+      },
+      {
+        "campaignId": 12,
+        "campaignName": "CampName12",
+        "categoryUrl": "mobiles - tablets",
+        "budget": 5000,
+        "cpc": 12
+      },
+      {
+        "campaignId": 12,
+        "campaignName": "CampName12",
+        "categoryUrl": "mobiles - tablets",
+        "budget": 5000,
+        "cpc": 12
+      },
+      {
+        "campaignId": 12,
+        "campaignName": "CampName12",
+        "categoryUrl": "mobiles - tablets",
+        "budget": 5000,
+        "cpc": 12
+      },
+      {
+        "campaignId": 12,
+        "campaignName": "CampName12",
+        "categoryUrl": "mobiles - tablets",
+        "budget": 5000,
+        "cpc": 12
+      },
+      {
+        "campaignId": 13,
+        "campaignName": "CampName13",
+        "categoryUrl": "mobiles - accessories",
+        "budget": 15000,
+        "cpc": 9
+      }
+    ],
+    "totalAmountWithoutTax": 20000,
+    "totalAmountWithTax": 23000,
+    "tax": 3000,
+    "taxPercentage": 15
+  }
+}

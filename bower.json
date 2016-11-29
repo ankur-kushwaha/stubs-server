@@ -1,0 +1,24 @@
+{
+  "name": "stubs-ui",
+  "authors": [
+    "Ankur Kushwaha <ankur.kushwaha@snapdeal.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "SnapdealSellerFrontWeb/src/main/webapp/static_new/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ng-jsoneditor": "angular-tools/ng-jsoneditor#^1.0.0",
+    "bootstrap": "^3.3.7",
+    "foundation-sites": "^6.2.3"
+  }
+}

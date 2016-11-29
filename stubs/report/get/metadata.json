@@ -1,0 +1,1240 @@
+[{
+    "key": "Orders",
+    "displayName": "Orders",
+    "subCatList": {
+        "fm": [{
+            "displayName": "Dropship",
+            "key": "DROPSHIP",
+            "visible": false,
+            "subCatList": [{
+                "displayName": "Comprehensive order report",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": null,
+                    "fulfillmentMode": "DROPSHIP",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "full",
+                        "displayName": "Order date"
+                    }]
+                },
+                "key": "FullOrder"
+            }, {
+                "displayName": "Manifested",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "MnfstNSD",
+                    "fulfillmentMode": "DROPSHIP",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "MnfstNSD"
+            }, {
+                "displayName": "Shipped",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "ShippedNSD",
+                    "fulfillmentMode": "DROPSHIP",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "ShippedNSD"
+            }, {
+                "displayName": "Delivered",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "DeliveredNSD",
+                    "fulfillmentMode": "DROPSHIP",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "DeliveredNSD"
+            }, {
+                "displayName": "Cancelled",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "CancelledNSD",
+                    "fulfillmentMode": "DROPSHIP",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "CancelledNSD"
+            }, {
+                "displayName": "Complaints",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "ComplaintNSD",
+                    "fulfillmentMode": "DROPSHIP",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "ComplaintNSD"
+            }, {
+                "displayName": "On Hold Orders",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "OnHoldOrdNSD",
+                    "fulfillmentMode": "DROPSHIP",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "OnHoldOrdNSD"
+            }, {
+                "displayName": "Non Serviceable Orders",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "NonSrvcOrdNSD",
+                    "fulfillmentMode": "DROPSHIP",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "NonSrvcOrdNSD"
+            }]
+        }, {
+            "displayName": "Oneship",
+            "key": "ONESHIP",
+            "visible": false,
+            "subCatList": [{
+                "displayName": "Comprehensive order report",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": null,
+                    "fulfillmentMode": "ONESHIP",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "full",
+                        "displayName": "Order date"
+                    }]
+                },
+                "key": "FullOrder"
+            }, {
+                "displayName": "Manifested",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "MnfstNSD",
+                    "fulfillmentMode": "ONESHIP",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "MnfstNSD"
+            }, {
+                "displayName": "Shipped",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "ShippedNSD",
+                    "fulfillmentMode": "ONESHIP",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "ShippedNSD"
+            }, {
+                "displayName": "Delivered",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "DeliveredNSD",
+                    "fulfillmentMode": "ONESHIP",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "DeliveredNSD"
+            }, {
+                "displayName": "Cancelled",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "CancelledNSD",
+                    "fulfillmentMode": "ONESHIP",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "CancelledNSD"
+            }, {
+                "displayName": "Complaints",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "ComplaintNSD",
+                    "fulfillmentMode": "ONESHIP",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "ComplaintNSD"
+            }, {
+                "displayName": "On Hold Orders",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "OnHoldOrdNSD",
+                    "fulfillmentMode": "ONESHIP",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "OnHoldOrdNSD"
+            }, {
+                "displayName": "Non Serviceable Orders",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "NonSrvcOrdNSD",
+                    "fulfillmentMode": "ONESHIP",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "NonSrvcOrdNSD"
+            }]
+        }, {
+            "displayName": "Oc Plus",
+            "key": "OCPLUS",
+            "visible": true,
+            "subCatList": [{
+                "displayName": "Comprehensive order report",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": null,
+                    "fulfillmentMode": "OCPLUS",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "full",
+                        "displayName": "Order date"
+                    }]
+                },
+                "key": "FullOrder"
+            }, {
+                "displayName": "Manifested",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "MnfstNSD",
+                    "fulfillmentMode": "OCPLUS",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "MnfstNSD"
+            }, {
+                "displayName": "Shipped",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "ShippedNSD",
+                    "fulfillmentMode": "OCPLUS",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "ShippedNSD"
+            }, {
+                "displayName": "Delivered",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "DeliveredNSD",
+                    "fulfillmentMode": "OCPLUS",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "DeliveredNSD"
+            }, {
+                "displayName": "Cancelled",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "CancelledNSD",
+                    "fulfillmentMode": "OCPLUS",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "CancelledNSD"
+            }, {
+                "displayName": "Complaints",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "ComplaintNSD",
+                    "fulfillmentMode": "OCPLUS",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "ComplaintNSD"
+            }, {
+                "displayName": "On Hold Orders",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "OnHoldOrdNSD",
+                    "fulfillmentMode": "OCPLUS",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "OnHoldOrdNSD"
+            }, {
+                "displayName": "Non Serviceable Orders",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "NonSrvcOrdNSD",
+                    "fulfillmentMode": "OCPLUS",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "NonSrvcOrdNSD"
+            }]
+        }, {
+            "displayName": "Vendor Self",
+            "key": "VENDOR_SELF",
+            "visible": true,
+            "subCatList": [{
+                "displayName": "Comprehensive order report",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": null,
+                    "fulfillmentMode": "VENDOR_SELF",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "full",
+                        "displayName": "Order date"
+                    }]
+                },
+                "key": "FullOrder"
+            }, {
+                "displayName": "Manifested",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "MnfstNSD",
+                    "fulfillmentMode": "VENDOR_SELF",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "MnfstNSD"
+            }, {
+                "displayName": "Shipped",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "ShippedNSD",
+                    "fulfillmentMode": "VENDOR_SELF",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "ShippedNSD"
+            }, {
+                "displayName": "Delivered",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "DeliveredNSD",
+                    "fulfillmentMode": "VENDOR_SELF",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "DeliveredNSD"
+            }, {
+                "displayName": "Cancelled",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "CancelledNSD",
+                    "fulfillmentMode": "VENDOR_SELF",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "CancelledNSD"
+            }, {
+                "displayName": "Complaints",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "ComplaintNSD",
+                    "fulfillmentMode": "VENDOR_SELF",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "ComplaintNSD"
+            }, {
+                "displayName": "On Hold Orders",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "OnHoldOrdNSD",
+                    "fulfillmentMode": "VENDOR_SELF",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "OnHoldOrdNSD"
+            }, {
+                "displayName": "Non Serviceable Orders",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "NonSrvcOrdNSD",
+                    "fulfillmentMode": "VENDOR_SELF",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "NonSrvcOrdNSD"
+            }]
+        }, {
+            "displayName": "SD+",
+            "key": "FC_VOI",
+            "visible": true,
+            "subCatList": [{
+                "displayName": "Comprehensive order report",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": null,
+                    "fulfillmentMode": "FC_VOI",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "full",
+                        "displayName": "Order date"
+                    }]
+                },
+                "key": "FullOrder"
+            }, {
+                "displayName": "Cancelled",
+                "payload": {
+                    "reportType": "SDPlus",
+                    "queryType": null,
+                    "state": "CancelledSD",
+                    "fulfillmentMode": "FC_VOI",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "CancelledSD"
+            }, {
+                "displayName": "Manifested At SD Warehouse",
+                "payload": {
+                    "reportType": "SDPlus",
+                    "queryType": null,
+                    "state": "MnfstSD",
+                    "fulfillmentMode": "FC_VOI",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "MnfstSD"
+            }, {
+                "displayName": "GRN at SD Warehouse Report",
+                "payload": {
+                    "reportType": "SDPlus",
+                    "queryType": null,
+                    "state": "GRNSD",
+                    "fulfillmentMode": "FC_VOI",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "GRNSD"
+            }, {
+                "displayName": "Orders Booked not manifested",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "OrdSD",
+                    "fulfillmentMode": "FC_VOI",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "OrdSD"
+            }, {
+                "displayName": "Shipped (Courier Connected)",
+                "payload": {
+                    "reportType": "SDPlus",
+                    "queryType": null,
+                    "state": "ShippedSD",
+                    "fulfillmentMode": "FC_VOI",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "ShippedSD"
+            }, {
+                "displayName": "Delivered",
+                "payload": {
+                    "reportType": "SDPlus",
+                    "queryType": null,
+                    "state": "DeliveredSD",
+                    "fulfillmentMode": "FC_VOI",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "DeliveredSD"
+            }, {
+                "displayName": "Complaints",
+                "payload": {
+                    "reportType": "SDPlus",
+                    "queryType": null,
+                    "state": "ComplaintsSD",
+                    "fulfillmentMode": "FC_VOI",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "ComplaintsSD"
+            }]
+        }]
+    },
+    "reportGenerationAllowed": true
+}, {
+    "key": "Catalog",
+    "displayName": "Catalog",
+    "subCatList": {
+        "subCatList": [{
+            "displayName": "Price and Inventory",
+            "payload": null,
+            "variables": null,
+            "filters": null,
+            "key": "PriceInventory"
+        }]
+    },
+    "reportGenerationAllowed": true
+}, {
+    "key": "Lisitng",
+    "displayName": "Listing",
+    "subCatList": {
+        "subCatList": [{
+            "displayName": "Bulk Image Status",
+            "payload": null,
+            "variables": null,
+            "filters": null,
+            "key": "BulkImgStatus"
+        }]
+    },
+    "reportGenerationAllowed": false
+}, {
+    "key": "Payments",
+    "displayName": "Payments",
+    "subCatList": {
+        "subCatList": [{
+            "displayName": "Settled Payments",
+            "payload": {
+                "startDate": null,
+                "endDate": null,
+                "searchTerm": null,
+                "paymentType": null,
+                "erpSystemId": null,
+                "dateFormat": "dd-MM-yyyy",
+                "pageSize": 10.0,
+                "type": "PAYMENTS",
+                "startYear": 0.0,
+                "endYear": 0.0
+            },
+            "variables": ["startDate", "endDate"],
+            "filters": null,
+            "key": "Payment"
+        }, {
+            "displayName": "Unsettled Transactions",
+            "payload": {
+                "startDate": null,
+                "endDate": null,
+                "searchTerm": null,
+                "paymentType": "ALL",
+                "erpSystemId": null,
+                "dateFormat": null,
+                "pageSize": 0.0,
+                "type": "UNSETTLED",
+                "startYear": 0.0,
+                "endYear": 0.0
+            },
+            "variables": ["startDate", "endDate"],
+            "filters": null,
+            "key": "UnsettledTxn"
+        }, {
+            "displayName": "Settled Transactions",
+            "payload": {
+                "startDate": null,
+                "endDate": null,
+                "searchTerm": null,
+                "paymentType": null,
+                "erpSystemId": null,
+                "dateFormat": null,
+                "pageSize": 0.0,
+                "type": "SETTLED",
+                "startYear": 0.0,
+                "endYear": 0.0
+            },
+            "variables": ["startDate", "endDate"],
+            "filters": null,
+            "key": "SettledTxn"
+        }, {
+            "displayName": "Yearly Reports",
+            "payload": {
+                "startDate": null,
+                "endDate": null,
+                "searchTerm": null,
+                "paymentType": null,
+                "erpSystemId": null,
+                "dateFormat": null,
+                "pageSize": 0.0,
+                "type": "YEARLYREPORT",
+                "startYear": 0.0,
+                "endYear": 0.0,
+                "sellerCode": null
+            },
+            "variables": ["startYear", "endYear", "sellerCode"],
+            "filters": null,
+            "key": "YearlyReport"
+        }]
+    },
+    "reportGenerationAllowed": true
+}, {
+    "key": "Returns",
+    "displayName": "Returns",
+    "subCatList": {
+        "fm": [{
+            "displayName": "Dropship",
+            "key": "DROPSHIP",
+            "visible": false,
+            "subCatList": [{
+                "displayName": "Return Delivered",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "ReturnsDlvrd",
+                    "fulfillmentMode": "DROPSHIP",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "ReturnsDlvrd"
+            }, {
+                "displayName": "Return Acknowledged",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "ReturnsAck",
+                    "fulfillmentMode": "DROPSHIP",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "ReturnsAck"
+            }]
+        }, {
+            "displayName": "Oneship",
+            "key": "ONESHIP",
+            "visible": false,
+            "subCatList": [{
+                "displayName": "Return Delivered",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "ReturnsDlvrd",
+                    "fulfillmentMode": "ONESHIP",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "ReturnsDlvrd"
+            }, {
+                "displayName": "Return Acknowledged",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "ReturnsAck",
+                    "fulfillmentMode": "ONESHIP",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "ReturnsAck"
+            }]
+        }, {
+            "displayName": "Oc Plus",
+            "key": "OCPLUS",
+            "visible": false,
+            "subCatList": [{
+                "displayName": "Return Delivered",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "ReturnsDlvrd",
+                    "fulfillmentMode": "OCPLUS",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "ReturnsDlvrd"
+            }, {
+                "displayName": "Return Acknowledged",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "ReturnsAck",
+                    "fulfillmentMode": "OCPLUS",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "ReturnsAck"
+            }]
+        }, {
+            "displayName": "Vendor Self",
+            "key": "VENDOR_SELF",
+            "visible": false,
+            "subCatList": [{
+                "displayName": "Return Delivered",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "ReturnsDlvrd",
+                    "fulfillmentMode": "VENDOR_SELF",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "ReturnsDlvrd"
+            }, {
+                "displayName": "Return Acknowledged",
+                "payload": {
+                    "reportType": "NonSDPlus",
+                    "queryType": null,
+                    "state": "ReturnsAck",
+                    "fulfillmentMode": "VENDOR_SELF",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "ReturnsAck"
+            }]
+        }, {
+            "displayName": "SD+",
+            "key": "FC_VOI",
+            "visible": false,
+            "subCatList": [{
+                "displayName": "Return Acknowledged",
+                "payload": {
+                    "reportType": "SDPlus",
+                    "queryType": null,
+                    "state": "ReturnsAckBySD",
+                    "fulfillmentMode": "FC_VOI",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "ReturnsAckBySD"
+            }, {
+                "displayName": "Return Delivered",
+                "payload": {
+                    "reportType": "SDPlus",
+                    "queryType": null,
+                    "state": "ReturnsDlvrdToSD",
+                    "fulfillmentMode": "FC_VOI",
+                    "startDate": null,
+                    "endDate": null
+                },
+                "variables": ["startDate", "endDate", "queryType"],
+                "filters": {
+                    "queryType": [{
+                        "key": "created",
+                        "displayName": "Created Date"
+                    }, {
+                        "key": "status",
+                        "displayName": "Updated Date"
+                    }]
+                },
+                "key": "ReturnsDlvrdToSD"
+            }]
+        }]
+    },
+    "reportGenerationAllowed": true
+}, {
+    "key": "ASR",
+    "displayName": "Consignment QC Report",
+    "subCatList": {
+        "subCatList": [{
+            "displayName": "Consignment QC Report",
+            "payload": null,
+            "variables": null,
+            "filters": null,
+            "key": "GrnReport"
+        }]
+    },
+    "reportGenerationAllowed": false
+},{
+	"key":"SDPlus",
+	"displayName": "SD+",
+	"reportGenerationAllowed": true,
+	"subCatList":{
+		"subCatList": [{
+            "displayName": "SD+ InventoryReport",
+            "payload": null,
+            "variables": null,
+            "filters": null,
+            "key": "SDPlusInventoryHealth"
+        },{
+            "displayName": "SD+ Aging Report",
+            "payload": null,
+            "variables": null,
+            "filters": null,
+            "key": "SDPlusInventoryAging"
+        },{
+            "displayName": "SD+ Reconcillation Report",
+            "payload": null,
+            "variables": null,
+            "filters": null,
+            "key": "SDPlusInventoryRecon"
+        }]
+	}
+}]

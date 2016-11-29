@@ -1,0 +1,1549 @@
+{
+    "metadata": {
+        "categories": [
+            {
+                "id": 476,
+                "name": "Watches ",
+                "count": 21,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 477,
+                        "name": "Men's Watches",
+                        "count": 21,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 474,
+                "name": "Bags & Luggage",
+                "count": 42,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 16,
+                        "name": "Womens Handbags",
+                        "count": 21,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 402,
+                        "name": "Backpacks",
+                        "count": 21,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Home & Kitchen",
+                "count": 6,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 210,
+                        "name": "Bathroom Accessories",
+                        "count": 6,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 475,
+                "name": "Home Furnishing",
+                "count": 37,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 606,
+                        "name": "Fabrics",
+                        "count": 37,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Jewellery",
+                "count": 172,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 42,
+                        "name": "Silver Jewellery",
+                        "count": 59,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 341,
+                        "name": "Earrings",
+                        "count": 55,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 48,
+                        "name": "Anklets, Toe-rings & More",
+                        "count": 41,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 41,
+                        "name": "Diamond Jewellery",
+                        "count": 10,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 571,
+                        "name": "Body Studs",
+                        "count": 3,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 43,
+                        "name": "Pearl Jewellery",
+                        "count": 2,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 40,
+                        "name": "Gold Jewellery",
+                        "count": 1,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 49,
+                        "name": "Mens Jewellery",
+                        "count": 1,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 66,
+                "name": "Infants, Kids & Toys",
+                "count": 42,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 68,
+                        "name": "Indoor Games & Puzzles",
+                        "count": 21,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 72,
+                        "name": "Outdoor Play",
+                        "count": 21,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "name": "TVs, Audio & Video",
+                "count": 153,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 628,
+                        "name": "Video Players",
+                        "count": 130,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 64,
+                        "name": "Televisions",
+                        "count": 16,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 62,
+                        "name": "Portable Audio - Players / Docks",
+                        "count": 7,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 473,
+                "name": "Eyewear",
+                "count": 15,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 15,
+                        "name": "Sunglasses",
+                        "count": 15,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "name": "Appliances",
+                "count": 674,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 97,
+                        "name": "Home Appliances",
+                        "count": 432,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 570,
+                        "name": "Solar Appliances and Solar devices and Solar equipment && Solar Devices ",
+                        "count": 177,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 230,
+                        "name": "Air Conditioner",
+                        "count": 49,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 229,
+                        "name": "Personal Care Appliances",
+                        "count": 13,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 245,
+                        "name": "Refrigerator",
+                        "count": 3,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "name": "Mobiles & Tablets",
+                "count": 526,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 175,
+                        "name": "Mobile Phones",
+                        "count": 317,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 133,
+                        "name": "Tablets",
+                        "count": 150,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 726,
+                        "name": "Mobile Dualsim",
+                        "count": 33,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 678,
+                        "name": "Batteries",
+                        "count": 16,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 676,
+                        "name": "Cases & Covers",
+                        "count": 6,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 228,
+                        "name": "Memory Cards",
+                        "count": 3,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 29,
+                        "name": "Mobile Accessories",
+                        "count": 1,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "name": "Cameras",
+                "count": 3,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 80,
+                        "name": "Analog Cameras",
+                        "count": 2,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 82,
+                        "name": "Photo Printers & Papers",
+                        "count": 1,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 702,
+                "name": "Electronic gadget",
+                "count": 26,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 706,
+                        "name": "Mobile Phones",
+                        "count": 14,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 705,
+                        "name": "Automotive ",
+                        "count": 10,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 707,
+                        "name": "Accessories",
+                        "count": 2,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 17,
+                "name": "Men's Apparel",
+                "count": 13,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 193,
+                        "name": "T Shirts',_ -&",
+                        "count": 6,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 191,
+                        "name": "Shirts",
+                        "count": 5,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 110,
+                        "name": "Ethnic Wear",
+                        "count": 1,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 200,
+                        "name": "Jackets",
+                        "count": 1,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 703,
+                "name": "Fashion for her",
+                "count": 3,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 709,
+                        "name": "Womens Handbags",
+                        "count": 2,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 708,
+                        "name": "Women Watches",
+                        "count": 1,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 461,
+                "name": "Stationery & Office Supplies",
+                "count": 2,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 601,
+                        "name": "School Supplies",
+                        "count": 2,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 21,
+                "name": "Computers & Peripherals",
+                "count": 2145,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 57,
+                        "name": "Laptops",
+                        "count": 2127,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 51,
+                        "name": "Computer Peripherals",
+                        "count": 10,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 52,
+                        "name": "Pen Drives",
+                        "count": 3,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 151,
+                        "name": "Mouse",
+                        "count": 3,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 53,
+                        "name": "External Hard Disks",
+                        "count": 1,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 121,
+                        "name": "Monitors",
+                        "count": 1,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 23,
+                "name": "Women's Apparel",
+                "count": 49,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 176,
+                        "name": "Sarees",
+                        "count": 41,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 182,
+                        "name": "Innerwear",
+                        "count": 6,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 421,
+                        "name": "Tees & Polos",
+                        "count": 2,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 159,
+                "name": "Sports & Fitness",
+                "count": 82,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 161,
+                        "name": "Badminton",
+                        "count": 41,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 167,
+                        "name": "Football",
+                        "count": 41,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 575,
+                "name": "Gaming",
+                "count": 123,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 720,
+                        "name": "video games",
+                        "count": 97,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 576,
+                        "name": "Gaming Consoles",
+                        "count": 21,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 577,
+                        "name": "Gaming Accessories",
+                        "count": 5,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 31,
+                "name": "Fragrances",
+                "count": 74,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 136,
+                        "name": "Deodorants",
+                        "count": 45,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 122,
+                        "name": "Perfumes",
+                        "count": 26,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 8,
+                        "name": "Perfumes",
+                        "count": 3,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 310,
+                "name": "Automotive",
+                "count": 42,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 311,
+                        "name": "Car Audio & Video",
+                        "count": 21,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 313,
+                        "name": "Car Interior & Accessories",
+                        "count": 21,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 524,
+                "name": "Boys Clothing",
+                "count": 120,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 526,
+                        "name": "T-Shirts",
+                        "count": 30,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 527,
+                        "name": "Shirts",
+                        "count": 30,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 530,
+                        "name": "Jeans & Pants",
+                        "count": 20,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 531,
+                        "name": "Trousers",
+                        "count": 20,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 534,
+                        "name": "Trackpants",
+                        "count": 20,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 586,
+                "name": "Beauty & Personal Care",
+                "count": 394,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 589,
+                        "name": "Beauty Gift Sets",
+                        "count": 350,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 20,
+                        "name": "Hair Care",
+                        "count": 21,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 34,
+                        "name": "Skin Care",
+                        "count": 21,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 588,
+                        "name": "Beauty Accessories",
+                        "count": 2,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 227,
+                "name": "Women's Footwear",
+                "count": 41,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 258,
+                        "name": "Casual Shoes",
+                        "count": 41,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 318,
+                "name": "Health & Nutrition",
+                "count": 42,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 321,
+                        "name": "Health Devices",
+                        "count": 21,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 322,
+                        "name": "Nutrition & Supplements",
+                        "count": 21,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 290,
+                "name": "Cameras & Accessories",
+                "count": 3064,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 55,
+                        "name": "Desktops",
+                        "count": 2913,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 291,
+                        "name": "Digital Cameras",
+                        "count": 151,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 364,
+                "name": "Books",
+                "count": 1288,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 386,
+                        "name": "Religion and Spirituality",
+                        "count": 1027,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 367,
+                        "name": "Arts",
+                        "count": 252,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 370,
+                        "name": "Other Books",
+                        "count": 6,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 390,
+                        "name": "Travel",
+                        "count": 3,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            },
+            {
+                "id": 481,
+                "name": "Fashion Accessories",
+                "count": 250,
+                "checked": false,
+                "disabled": false,
+                "subCategory": [
+                    {
+                        "id": 598,
+                        "name": "Card Holders",
+                        "count": 159,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 599,
+                        "name": "Stockings",
+                        "count": 90,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    },
+                    {
+                        "id": 488,
+                        "name": "Hats & Caps",
+                        "count": 1,
+                        "checked": false,
+                        "disabled": false,
+                        "subCategory": []
+                    }
+                ]
+            }
+        ],
+        "brands": [
+            {
+                "id": 1,
+                "name": "samsung",
+                "count": 7031,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 10,
+                "name": "Touchstone",
+                "count": 672,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 2440,
+                "name": "sunny178",
+                "count": 541,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 6,
+                "name": "American Dream",
+                "count": 435,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 614,
+                "name": "Nokia",
+                "count": 300,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 2443,
+                "name": "sunny181",
+                "count": 206,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 5,
+                "name": "Airtel New",
+                "count": 46,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 8,
+                "name": "Apple",
+                "count": 42,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 2438,
+                "name": "sunny176",
+                "count": 37,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25680,
+                "name": "Apple21",
+                "count": 31,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25641,
+                "name": "EstBrand2",
+                "count": 14,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 537,
+                "name": "Nikon",
+                "count": 13,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 2441,
+                "name": "sunny179",
+                "count": 11,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 908,
+                "name": "Amzer",
+                "count": 6,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 14488,
+                "name": "A & A Publishers",
+                "count": 6,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25644,
+                "name": "Est1Brand",
+                "count": 5,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 2,
+                "name": "Adolfo",
+                "count": 4,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 2442,
+                "name": "sunny180",
+                "count": 4,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25701,
+                "name": "Bottles",
+                "count": 3,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 342,
+                "name": "Reebok",
+                "count": 2,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 1333,
+                "name": "Kazo",
+                "count": 2,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25661,
+                "name": "Apple1",
+                "count": 2,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25662,
+                "name": "Apple2",
+                "count": 2,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25663,
+                "name": "Apple3",
+                "count": 2,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25696,
+                "name": "Clevo",
+                "count": 2,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 2439,
+                "name": "sunny177",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25664,
+                "name": "Apple5",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25665,
+                "name": "Apple6",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25666,
+                "name": "Apple7",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25667,
+                "name": "Apple8",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25668,
+                "name": "Apple9",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25669,
+                "name": "Apple10",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25670,
+                "name": "Apple11",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25671,
+                "name": "Apple12",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25672,
+                "name": "Apple13",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25673,
+                "name": "Apple14",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25674,
+                "name": "Apple15",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25675,
+                "name": "Apple16",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25676,
+                "name": "Apple17",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25677,
+                "name": "Apple18",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25678,
+                "name": "Apple19",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25679,
+                "name": "Apple20",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25681,
+                "name": "Apple22",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25682,
+                "name": "Apple23",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25683,
+                "name": "Apple24",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25684,
+                "name": "Apple25",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25685,
+                "name": "Apple26",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25686,
+                "name": "Apple27",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25687,
+                "name": "Apple28",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25688,
+                "name": "Apple29",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25689,
+                "name": "Apple30",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25690,
+                "name": "Apple31",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25691,
+                "name": "Apple32",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25692,
+                "name": "Nippon",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25693,
+                "name": "Sonic",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            },
+            {
+                "id": 25702,
+                "name": "New Brand on Staging_edited",
+                "count": 1,
+                "checked": false,
+                "disabled": false
+            }
+        ],
+        "supcsToIsLiveMap": {
+            "SDL020025576": true,
+            "SDL641048983": false,
+            "SDL150849720": false,
+            "SDL150974771": false,
+            "SDL152850032": false,
+            "SDL165703127": false,
+            "SDL155630086": false,
+            "SDL165568360": false,
+            "SDL161323426": false,
+            "SDL163160963": false
+        },
+        "searchKeyword": "samsung",
+        "minSellingPrice": 0,
+        "maxSellingPrice": 30000334,
+        "searchParam": "ALL",
+        "totalNumberOfResults": 9450
+    },
+    "supcsDetail": [
+        {
+            "pogId": 213503,
+            "supc": "SDL020025576",
+            "productName": "Samsung Galaxy Duos TEST 3455 test",
+            "brandName": "EstBrand2",
+            "competitivePrice": 11,
+            "pageurl": "http://site.staging.snapdeal.com:7001//product/samsung-galaxy-duos-23100/213503",
+            "imageUrl": "http://qan3.sdlcdn.com/img/product/main/SDL020025576_1366699556_image1.jpg",
+            "bucketName": "ComputersLaptops",
+            "attributes": [
+                {
+                    "name": "Size",
+                    "value": "M"
+                },
+                {
+                    "name": "Color",
+                    "value": "Green"
+                }
+            ],
+            "soldBySeller": true
+        },
+        {
+            "pogId": 213373,
+            "supc": "SDL641048983",
+            "productName": "samsung",
+            "brandName": "Apple",
+            "competitivePrice": 200,
+            "pageurl": "http://site.staging.snapdeal.com:7001//product/staging-product-name-for-map32/213373",
+            "imageUrl": "http://qan3.sdlcdn.com/img/product/main/SDL641048983_1365082178_image1.jpg",
+            "bucketName": "men-apparel-casual-wear",
+            "attributes": [
+                {
+                    "name": "city",
+                    "value": "Delhi"
+                }
+            ],
+            "soldBySeller": false
+        },
+        {
+            "pogId": 531385006,
+            "supc": "SDL150849720",
+            "productName": "Samsung AC10",
+            "brandName": "Apple",
+            "competitivePrice": 1200,
+            "pageurl": "http://site.staging.snapdeal.com:7001//product/samsung-ac10/531385006",
+            "imageUrl": "http://qan3.sdlcdn.com/imgs/a/a/n/Samsung-AC10-SDL150849720-1-03152.jpg",
+            "bucketName": "appliances-air-conditioners",
+            "attributes": [],
+            "soldBySeller": false
+        },
+        {
+            "pogId": 1121555326,
+            "supc": "SDL150974771",
+            "productName": "Samsung AC10",
+            "brandName": "Apple",
+            "competitivePrice": 1300,
+            "pageurl": "http://site.staging.snapdeal.com:7001//product/samsung-ac10/1121555326",
+            "imageUrl": "http://qan3.sdlcdn.com/imgs/a/a/n/Samsung-AC10-SDL150974771-1-ebe48.jpg",
+            "bucketName": "appliances-air-conditioners",
+            "attributes": [],
+            "soldBySeller": false
+        },
+        {
+            "pogId": 647804688,
+            "supc": "SDL152850032",
+            "productName": "Samsung Galaxy _J1",
+            "brandName": "sunny178",
+            "competitivePrice": 30005,
+            "pageurl": "http://site.staging.snapdeal.com:7001//product/samsung-galaxy-j1/647804688",
+            "imageUrl": "http://qan3.sdlcdn.com/imgs/a/a/b/SDL157836299_1375086948_image1-c8ec8.jpg",
+            "bucketName": "MobilesMobile-phones",
+            "attributes": [
+                {
+                    "name": "bulkFilter",
+                    "value": "Green11"
+                },
+                {
+                    "name": "color",
+                    "value": "Pink"
+                },
+                {
+                    "name": "size",
+                    "value": "30"
+                }
+            ],
+            "soldBySeller": false
+        },
+        {
+            "pogId": 1401617730,
+            "supc": "SDL165703127",
+            "productName": "Samsung Galaxy _J1",
+            "brandName": "sunny178",
+            "competitivePrice": 30005,
+            "pageurl": "http://site.staging.snapdeal.com:7001//product/samsung-galaxy-j1/1401617730",
+            "imageUrl": "http://qan3.sdlcdn.com/imgs/a/a/b/SDL191699051_1375086946_image1-1c579.jpg",
+            "bucketName": "MobilesMobile-phones",
+            "attributes": [
+                {
+                    "name": "bulkFilter",
+                    "value": "Green11"
+                },
+                {
+                    "name": "color",
+                    "value": "Pink"
+                },
+                {
+                    "name": "size",
+                    "value": "30"
+                }
+            ],
+            "soldBySeller": false
+        },
+        {
+            "pogId": 1088514163,
+            "supc": "SDL155630086",
+            "productName": "Samsung Galaxy _J1",
+            "brandName": "sunny178",
+            "competitivePrice": 30005,
+            "pageurl": "http://site.staging.snapdeal.com:7001//product/samsung-galaxy-j1/1088514163",
+            "imageUrl": "http://qan3.sdlcdn.com/imgs/a/a/b/SDL191745940_1375086947_image1-1f731.jpg",
+            "bucketName": "MobilesMobile-phones",
+            "attributes": [
+                {
+                    "name": "bulkFilter",
+                    "value": "Green11"
+                },
+                {
+                    "name": "color",
+                    "value": "Pink"
+                },
+                {
+                    "name": "size",
+                    "value": "30"
+                }
+            ],
+            "soldBySeller": false
+        },
+        {
+            "pogId": 647804688,
+            "supc": "SDL165568360",
+            "productName": "Samsung Galaxy _J1",
+            "brandName": "sunny178",
+            "competitivePrice": 30005,
+            "pageurl": "http://site.staging.snapdeal.com:7001//product/samsung-galaxy-j1/647804688",
+            "imageUrl": "http://qan3.sdlcdn.com/imgs/a/a/b/SDL157836299_1375086948_image1-c8ec8.jpg",
+            "bucketName": "MobilesMobile-phones",
+            "attributes": [
+                {
+                    "name": "bulkFilter",
+                    "value": "Green11"
+                },
+                {
+                    "name": "color",
+                    "value": "Pink"
+                },
+                {
+                    "name": "size",
+                    "value": "30"
+                }
+            ],
+            "soldBySeller": false
+        },
+        {
+            "pogId": 1401617730,
+            "supc": "SDL161323426",
+            "productName": "Samsung Galaxy _J1",
+            "brandName": "sunny178",
+            "competitivePrice": 30005,
+            "pageurl": "http://site.staging.snapdeal.com:7001//product/samsung-galaxy-j1/1401617730",
+            "imageUrl": "http://qan3.sdlcdn.com/imgs/a/a/b/SDL191699051_1375086946_image1-1c579.jpg",
+            "bucketName": "MobilesMobile-phones",
+            "attributes": [
+                {
+                    "name": "bulkFilter",
+                    "value": "Green11"
+                },
+                {
+                    "name": "color",
+                    "value": "Pink"
+                },
+                {
+                    "name": "size",
+                    "value": "30"
+                }
+            ],
+            "soldBySeller": false
+        },
+        {
+            "pogId": 2043263416,
+            "supc": "SDL163160963",
+            "productName": "Samsung Galaxy _J1",
+            "brandName": "sunny178",
+            "competitivePrice": 30005,
+            "pageurl": "http://site.staging.snapdeal.com:7001//product/samsung-galaxy-j1/2043263416",
+            "imageUrl": "http://qan3.sdlcdn.com/imgs/a/a/b/SDL194204245_1375266666_image1-41de2.jpg",
+            "bucketName": "MobilesMobile-phones",
+            "attributes": [
+                {
+                    "name": "bulkFilter",
+                    "value": "Green11"
+                },
+                {
+                    "name": "color",
+                    "value": "Pink"
+                },
+                {
+                    "name": "size",
+                    "value": "30"
+                }
+            ],
+            "soldBySeller": false
+        }
+    ],
+    "success": true,
+    "message": null
+}

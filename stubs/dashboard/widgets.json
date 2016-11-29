@@ -1,0 +1,82 @@
+[{
+    "alignment": "CENTER_TOP",
+    "headerName": "Orders & Sales Summary",
+    "helpText": "LAST 15 DAYS",
+    "id": 12,
+    "position": 1,
+    "templatePath": "/static/sfui/app/components/widgets/orderSalesSummary.html",
+    "type": "R_ORDERS_SALES_SUMMARY",
+    "visible": true
+}, {
+    "alignment": "RIGHT",
+    "headerName": "Ads Panel",
+    "helpText": "",
+    "id": 21,
+    "position": 1,
+    "templatePath": "/static/sfui/app/components/widgets/adsPanel.html",
+    "type": "R_ADS",
+    "visible": true
+}, {
+    "alignment": "LEFT",
+    "headerName": "Must-Add Stock",
+    "helpText": "",
+    "id": 24,
+    "position": 1,
+    "templatePath": "/static/sfui/app/components/widgets/recommendations.html",
+    "type": "R_RECOMMENDATIONS",
+    "visible": true
+}, {
+    "alignment": "LEFT",
+    "headerName": "Orders",
+    "helpText": "",
+    "id": 13,
+    "position": 2,
+    "templatePath": "/static/sfui/app/components/widgets/orders.html",
+    "type": "R_ORDERS",
+    "visible": true
+}, {
+    "alignment": "RIGHT",
+    "headerName": "Returns",
+    "helpText": "",
+    "id": 14,
+    "position": 3,
+    "templatePath": "/static/sfui/app/components/widgets/returns.html",
+    "type": "R_RETURNS",
+    "visible": true
+}, {
+    "alignment": "LEFT",
+    "headerName": "Payments",
+    "helpText": "",
+    "id": 15,
+    "position": 5,
+    "templatePath": "/static/sfui/app/components/widgets/payments.html",
+    "type": "R_PAYMENTS",
+    "visible": true
+}, {
+    "alignment": "RIGHT",
+    "headerName": "Catalog",
+    "helpText": "",
+    "id": 16,
+    "position": 6,
+    "templatePath": "/static/sfui/app/components/widgets/catalog.html",
+    "type": "R_CATALOG",
+    "visible": true
+}, {
+    "alignment": "RIGHT",
+    "headerName": "Rating",
+    "helpText": "",
+    "id": 17,
+    "position": 7,
+    "templatePath": "/static/sfui/app/components/widgets/ratingNonFm.html",
+    "type": "R_RATING",
+    "visible": true
+}, {
+    "alignment": "RIGHT",
+    "headerName": "Recent Queries",
+    "helpText": "",
+    "id": 19,
+    "position": 8,
+    "templatePath": "/static/sfui/app/components/widgets/queries.html",
+    "type": "R_QUERIES",
+    "visible": true
+}]

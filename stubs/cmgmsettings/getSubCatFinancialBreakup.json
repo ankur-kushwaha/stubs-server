@@ -1,0 +1,77 @@
+{
+    "gmBreakup": {
+        "deductables": [{
+            "id": "waiveredMarginAmount",
+            "displayName": "Snapdeal Margin Amount",
+            "value": -146.4272,
+            "percentage": -1220.2266666666667
+        }, {
+            "id": "collectionCharges",
+            "displayName": "Collection Charges",
+            "value": 23.0,
+            "percentage": null
+        }, {
+            "id": "logisticCost",
+            "displayName": "Logistic Cost",
+            "value": 103.49999999999999,
+            "percentage": null
+        }, {
+            "id": "extraFulfillmentFeesAfterWaiver",
+            "displayName": "Fulfillment Charges",
+            "value": 0.0,
+            "percentage": null
+        }, {
+            "id": "processingCharges",
+            "displayName": "Processing Charges",
+            "value": 6.8999999999999995,
+            "percentage": null
+        }, {
+            "id": "packagingCharges",
+            "displayName": "Packaging Charges",
+            "value": 17.25,
+            "percentage": null
+        }],
+        "netSellerPayable": 7.777200000000001
+    },
+    "cmBreakup": {
+        "deductables": [{
+            "id": "waiveredMarginAmount",
+            "displayName": "Snapdeal Margin Amount",
+            "value": 3.096029926300049,
+            "percentage": 25.80024938583374
+        }, {
+            "id": "collectionCharges",
+            "displayName": "Collection Charges",
+            "value": 23.0,
+            "percentage": null
+        }, {
+            "id": "logisticCost",
+            "displayName": "Logistic Cost",
+            "value": 103.49999999999999,
+            "percentage": null
+        }, {
+            "id": "extraFulfillmentFeesAfterWaiver",
+            "displayName": "Fulfillment Charges",
+            "value": 11.5,
+            "percentage": null
+        }, {
+            "id": "processingCharges",
+            "displayName": "Processing Charges",
+            "value": 6.8999999999999995,
+            "percentage": null
+        }, {
+            "id": "packagingCharges",
+            "displayName": "Packaging Charges",
+            "value": 17.25,
+            "percentage": null
+        }],
+        "netSellerPayable": -153.24602992630003
+    },
+    "additionalInfo": {
+        "supc": "SDL002161503",
+        "fulfillmentMode": "SOI",
+        "sellingPrice": 12,
+        "inventory": 0,
+        "sku": "Baver"
+    }
+}

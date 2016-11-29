@@ -1,0 +1,21 @@
+{
+  "successful": true,
+  "errorCode": null,
+  "data": {
+    "recurringTypesAllowed": [
+      "NONE",
+      "WEEKLY",
+      "ASAP"
+    ],
+    "loanAmount": 5000,
+    "totalTaxPercentage": 15,
+    "minCampaignBudget": 2000,
+    "defaultCampaignBudget": 5000,
+    "maxAllowedCategories": 5,
+    "userExist": true,
+    "eligibleForAds": true,
+    "loanAllowed": true,
+    "anyCampaignActive": false,
+    "recurringEnabled": false
+  }
+}

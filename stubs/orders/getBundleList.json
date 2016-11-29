@@ -1,0 +1,32 @@
+{
+  "records": [
+    {
+      "fulfillmentModeCode": "DROPSHIP",
+      "fulfillmentMode": "Dropship",
+      "numberOfPackages": 5,
+      "courierName": null,
+      "courierCode": "XPRESSBEES",
+      "oneshipCenterName": null,
+      "oneshipCenterCode": null
+    },
+    {
+      "fulfillmentModeCode": "OCPLUS",
+      "fulfillmentMode": "OC+",
+      "numberOfPackages": 1,
+      "courierName": null,
+      "courierCode": null,
+      "oneshipCenterName": null,
+      "oneshipCenterCode": "OCP_DEL"
+    },
+    {
+      "fulfillmentModeCode": "VENDOR_SELF",
+      "fulfillmentMode": "Vendor Self",
+      "numberOfPackages": 104,
+      "courierName": null,
+      "courierCode": null,
+      "oneshipCenterName": null,
+      "oneshipCenterCode": null
+    }
+  ],
+  "hasNext": false
+}

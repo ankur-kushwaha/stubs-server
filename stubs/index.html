@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html ng-controller="MainController">
+
+<head profile="http://www.w3.org/2005/10/profile">
+    <base href="/"></base>
+    <meta charset="utf-8" />
+    <meta name="google-site-verification" content="8v8zAJic2w2XirLf5cTcaMB3A6sWQHQ_pv2EubyTtZc" />
+    <link rel="shortcut icon" href="/static/sfui/assets/images/sd-favicon.ico" type="image/x-icon" />
+    <link rel="icon" type="image/ico" href="/static/sfui/assets/images/sd-favicon.ico" />
+    <link rel="stylesheet" href="/static/sfui/libs/vendor.css" />
+    <link rel="stylesheet" href="/static/sfui/app/themes/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="/static/sfui/app/app.css" />
+    <link rel="manifest" href="/static/sfui/app/manifest.json" />
+    <script src="//localhost:35729/livereload.js"></script>
+</head>
+
+<body>
+    <!-- browser version alert -->
+    <sf-browser-support></sf-browser-support>
+    <seller-details-modal></seller-details-modal>
+    <div class="main-container clearfix">
+        <app-header class="" impersonate="false"></app-header>
+        <aside class="small-2 side-container">
+            <app-nav class="app-nav"></app-nav>
+        </aside>
+        <section class="small-offset-2 small-10">
+            <div ui-view class="panel-container clearfix"></div>
+            <ads-modal ng-if="showAdsModalFlag" start-point="bulk_popup"></ads-modal>
+        </section>
+    </div>
+    <!--modal for app download -->
+    <app-download class="app-download"></app-download>
+    <!-- modal for signature upload -->
+    <signature-upload launch="default"></signature-upload>
+    <!-- alert modal popups -->
+    <div id="sfAlertModal" class='sf-modal alert-modal' ng-show='showModal' sf-alert ng-cloak>
+        <div class='sf-modal-overlay'></div>
+        <div class='sf-modal-dialog-wrapper' ng-click='overlayClicked($event)'>
+            <div class="modal-table">
+                <div class="modal-table-cell">
+                    <div class='sf-modal-dialog' ng-class="modalType">
+                        <div class="row">
+                            <div class='sf-modal-dialog-heading small-12 columns' ng-if="heading" ng-bind-html="heading"></div>
+                            <div class='sf-modal-dialog-content small-12 columns' ng-class="heading ? '' : 'text-left'" ng-bind-html="message"></div>
+                            <div class="text-right">
+                                <div class='sf-button-primary sf-modal-btn' ng-click='callback()'>{{ btnText }}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='sf-modal alert-modal' ng-show='showModal' sf-confirm ng-cloak>
+        <div class='sf-modal-overlay'></div>
+        <div class='sf-modal-dialog-wrapper' ng-click='overlayClicked($event)'>
+            <div class="modal-table">
+                <div class="modal-table-cell">
+                    <div class='sf-modal-dialog' ng-class="modalType">
+                        <div class="row">
+                            <div class='sf-modal-dialog-heading small-12 columns' ng-if="heading" ng-bind-html="heading"></div>
+                            <div class='sf-modal-dialog-content small-12 columns' ng-bind-html="message"></div>
+                            <div class="text-right">
+                                <div class='sf-button-primary sf-modal-btn' ng-click='confirmCallback()'>{{ confirmBtnText }}</div>
+                                <div class='sf-button-secondary sf-modal-btn' ng-click='cancelCallback()'>{{ cancelBtnText }}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="appStateLoader" class="sf-modal-loader"></div>
+    <div id="omnitureScriptContainer" class="hide"></div>
+    <script type="text/javascript" src="/static/sfui/libs/vendor.js"></script>
+    <script type="text/javascript" src="/static/sfui/app/app.js"></script>
+    <script type="text/javascript">
+    window._wfx_onload = function() {
+        var head = document.getElementsByTagName('head');
+        var script = document.createElement("script");
+        script.setAttribute("src", "/static/sfui/app/plugins/sellerState/integrationWhatFix_STAGING.js");
+        script.setAttribute("type", "text/javascript");
+        head[0].appendChild(script);
+    };
+    </script>
+    <script type="text/javascript">
+    var SF = SF || {};
+    SF.pageConfig = SF.pageConfig || {};
+
+    SF.pageConfig.isCatalogMOUAccepted = 'true';
+    SF.pageConfig.catalogMouContent = '';
+    SF.pageConfig.isSDPlus = 'false';
+    SF.pageConfig.isImpersonated = 'false';
+
+    window.fireOmnitureScript = function() { //need to remove this once call to it will be removed from all places
+        return false;
+    };
+    </script>
+    <script type="text/javascript">
+    var fb = new Fingerprint2();
+    fb.get(function(result, components) {
+        //var component = {'User-Agent':components[0].getText,};
+        var cookieStr = "otp_browser_id=" + result + " expires=31536000" + "path=/" + "domain=.snapdeal.com";
+        document.cookie = cookieStr;
+
+    });
+    </script>
+</body>
+
+</html>

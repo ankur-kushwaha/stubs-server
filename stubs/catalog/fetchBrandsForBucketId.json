@@ -1,0 +1,11 @@
+{
+    "brands": [{
+        "name": "Apple",
+        "id": "11",
+        "count": 3
+    }, {
+        "name": "Samsung",
+        "id": "1",
+        "count": 11
+    }]
+}
