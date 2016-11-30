@@ -5,8 +5,7 @@ var mkdirp = require('mkdirp');
 var path = require('path');
 var glob=require('glob');
 
-//app.use(express.static(path.join(__dirname,'/SnapdealSellerFrontUI/local/stubs-ui/')));
-router.use('/', express.static('stubs-ui'));
+router.use('/', express.static(path.join(__dirname, 'stubs-ui')));
 
 router.get('/allStubs', function(req, res) {
     console.log('all stubs');
