@@ -18,6 +18,7 @@
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "json5": "^0.5.0",
+    "jsonfile": "^2.4.0",
     "lodash": "^4.14.0",
     "properties-reader": "0.0.15",
     "utils-fs-read-json5": "^1.0.0"

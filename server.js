@@ -1,42 +1,44 @@
-var restify = require('restify');
+//'use strict';
+
+var express = require('express');
+var path = require('path');
+var app = express();
+var mkdirp = require('mkdirp');
+var bodyParser = require('body-parser')
+var fs = require('fs');
+
 var propertiesReader = require('properties-reader');
-var properties = propertiesReader('user.properties');
-var path = require('path');	
-var server = restify.createServer();
-var jsonfile = require('jsonfile')
+//var properties = propertiesReader('user.properties');
 
-server.get('/', restify.serveStatic({
-  directory: __dirname + "/stubs/",
-  file: 'index.html'
-}));
+// parse application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: false }))
 
-server.get(/\/static\/sfui\/?.*/, restify.serveStatic({
-  directory: path.join(properties.get('snapdeal.sellerfront.sfui.home'),'../../'),
-  default: 'index.html'
-}));
+// parse application/json
+app.use(bodyParser.json())
 
-function respond(req,res){
+//app.use(express.static(path.join(__dirname,'/SnapdealSellerFrontUI/local/stubs-ui/')));
 
+var publicDir = path.join('/Users/ankur.kushwaha/Documents/tomcat8/webapps/');
 
-var file = __dirname + "/stubs/" +req.path()+".json";
+app.use(express.static(publicDir));
 
-	 try {
-		 
-		jsonfile.readFile(file, function(err, obj) {
-			setTimeout(function(){
-					res.send(obj);
-			},1000);
-		})
-    } catch (e) {
-		console.log(e);
-        res.send(502);
-        console.log('status: 502','path: '+req.url);
-    }
-}
+var stubsUi=require('./stubs.routes.js');
 
-server.get(/\/?.*/, respond);
-server.post(/\/?.*/, respond);
+app.use('/stubs', stubsUi);
 
-server.listen(9001, function() {
-  console.log('%s listening at %s', server.name, server.url);
+app.get('/', function(req, res) {
+    res.sendFile(__dirname + '/stubs/index.html');
 });
+
+app.use('/*', function(req, res) {
+    console.log('getting ' + req.baseUrl);
+    var file = path.join(__dirname, 'stubs', req.baseUrl + '.json');
+    setTimeout(function(){
+        res.sendFile(file);
+    },500);
+});
+app.use(function(err, req, res, next) {
+    res.status(502).send('');
+});
+
+module.exports = app;
