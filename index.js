@@ -40,7 +40,7 @@ router.post('/saveData', function(req, res) {
 
 router.use('/*', function(req, res) {
     console.log('getting ' + req.baseUrl);
-    var file = path.join(__dirname+req.baseUrl + '.json');
+    var file = path.join(process.cwd()+req.baseUrl + '.json');
     setTimeout(function(){
         console.log('return file',file);
         res.sendFile(file);
