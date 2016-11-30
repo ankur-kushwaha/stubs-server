@@ -1,1 +1,0 @@
-{"successful":true,"errorMsg":null,"errorCode":null,"dataObject":[{"status":"UNSETTLED","paymentOutstanding":[{"type":"COD","amount":0.0},{"type":"NCOD","amount":523.0}],"dueOrSettlementDate":1473445800000},{"status":"SETTLED","paymentOutstanding":[{"type":"COD","amount":0.0},{"type":"NCOD","amount":18017.6}],"dueOrSettlementDate":1442255400000}]}

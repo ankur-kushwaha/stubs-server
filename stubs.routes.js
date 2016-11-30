@@ -1,11 +1,15 @@
 var express = require('express')
 var router = express.Router()
-var jsonfile = require('jsonfile')
+var jsonfile = require('jsonfile');
+var mkdirp = require('mkdirp');
+var path = require('path');
+var glob=require('glob');
 
 //app.use(express.static(path.join(__dirname,'/SnapdealSellerFrontUI/local/stubs-ui/')));
 router.use('/', express.static('stubs-ui'));
 
 router.get('/allStubs', function(req, res) {
+    console.log('all stubs');
     glob('**/*.json*', {
         cwd: 'stubs',
     }, function(er, files) {
@@ -36,14 +40,16 @@ router.post('/saveData', function(req, res) {
 
 router.use('/*', function(req, res) {
     console.log('getting ' + req.baseUrl);
-    var file = path.join('stubs', req.baseUrl + '.json');
+    var file = path.join(__dirname+req.baseUrl + '.json');
     setTimeout(function(){
+        console.log('return file',file);
         res.sendFile(file);
     },500);
 });
 
 router.use(function(err, req, res, next) {
+    console.log(err);
     res.status(502).send('');
 });
 
-module.exports = router
+module.exports = router;

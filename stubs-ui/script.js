@@ -23,7 +23,7 @@ angular.module('ngApp', ['ng.jsoneditor'])
 
     };
 	function postData(data, fullPath) {
-		return $http.post('/saveData', {
+		return $http.post('/stubs/saveData', {
 			data: data,
 			path: fullPath
 		})
@@ -40,7 +40,7 @@ angular.module('ngApp', ['ng.jsoneditor'])
 	}
 
     function getAllStubs(){
-		$http.get('/allStubs').then(function (res) {
+		$http.get('/stubs/allStubs').then(function (res) {
 			$scope.files = res.data;
 			$scope.validPaths = res.data.map(function (d) {
 				return d.path;
@@ -55,7 +55,7 @@ angular.module('ngApp', ['ng.jsoneditor'])
 	
     $scope.loadData = function (file) {
         $scope.selectedFile = file;
-        $http.get("/" + file.fullPath.replace(".json5", "").replace('.json', ""))
+        $http.get("/stubs/" + file.fullPath.replace(".json5", "").replace('.json', ""))
 			.then(function (res) {
 				console.log(res.data);
 				$scope.json=null;
