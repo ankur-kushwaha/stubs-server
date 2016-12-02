@@ -4,6 +4,13 @@ var jsonfile = require('jsonfile');
 var mkdirp = require('mkdirp');
 var path = require('path');
 var glob=require('glob');
+var bodyParser = require('body-parser')
+
+// parse application/x-www-form-urlencoded
+router.use(bodyParser.urlencoded({ extended: false }))
+
+// parse application/json
+router.use(bodyParser.json());
 
 router.use('/', express.static(path.join(__dirname, 'stubs-ui')));
 
