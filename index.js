@@ -19,7 +19,7 @@ module.exports = function (app) {
 
     router.use('/', express.static(path.join(__dirname, 'stubs-ui')));
 
-    router.get('/allStubs', function (req, res) {
+    router.get('/stubs/allStubs', function (req, res) {
         console.log('all stubs');
         glob('**/*.json*', {
             cwd: 'stubs',
@@ -34,7 +34,7 @@ module.exports = function (app) {
         });
     });
 
-    router.post('/saveData', function (req, res) {
+    router.post('/stubs/saveData', function (req, res) {
         var file = 'stubs/' + req.body.path;
         var obj = req.body.data;
         var getDirName = require('path').dirname;
@@ -49,19 +49,20 @@ module.exports = function (app) {
         });
     });
 
-    app.use('/*', function (req, res) {
-        console.log('getting ' + req.baseUrl);
-        var file = path.join(process.cwd() + req.baseUrl + '.json');
-        setTimeout(function () {
-            console.log('return file', file);
-            res.sendFile(file);
-        }, 500);
-    });
 
     router.use(function (err, req, res, next) {
         console.log(err);
         res.status(502).send('');
     });
 
-    return router;
+    app.use("/", router);
+
+    app.use('/*', function (req, res) {
+        console.log('getting ' + req.baseUrl);
+        var file = path.join(process.cwd() + '/stubs' + req.baseUrl + '.json');
+        setTimeout(function () {
+            console.log('return file', file);
+            res.sendFile(file);
+        }, 500);
+    });
 }

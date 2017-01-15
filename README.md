@@ -14,15 +14,7 @@ var express = require('express');
 var path = require('path');
 var app = express();
 
-var stubsUi = require('stubs-router');
-app.use("/stubs", stubsUi);
-
-var publicDir = path.join('/Users/ankur.kushwaha/Documents/tomcat8/webapps/');
-app.use(express.static(publicDir));
-
-app.get('/', function(req, res) {
-    res.sendFile(__dirname + '/stubs/index.html');
-});
+var stubsUi = require('stubs-server')(app);
 
 app.listen(9001, function() {
     console.log('server started on 9001');
@@ -30,3 +22,10 @@ app.listen(9001, function() {
 
 //module.exports = app;
 ``` 
+
+3. Run the server using `node index.js`
+4. Open the webpage `http://localhost:9001`
+5. Create new stubs by clicking 'Create New Stub'.
+6. Type the 'api name'(e.g "test") and enter valid json and Click 'Add API'.
+7. Search for API, edit and save.
+8. Test your mock api by going to browser "http://localhost:9001/test".
