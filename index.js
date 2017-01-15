@@ -3,59 +3,65 @@ var router = express.Router()
 var jsonfile = require('jsonfile');
 var mkdirp = require('mkdirp');
 var path = require('path');
-var glob=require('glob');
+var glob = require('glob');
 var bodyParser = require('body-parser')
 
-// parse application/x-www-form-urlencoded
-router.use(bodyParser.urlencoded({ extended: false }))
+module.exports = function (app) {
 
-// parse application/json
-router.use(bodyParser.json());
 
-router.use('/', express.static(path.join(__dirname, 'stubs-ui')));
+    // parse application/x-www-form-urlencoded
+    router.use(bodyParser.urlencoded({
+        extended: false
+    }))
 
-router.get('/allStubs', function(req, res) {
-    console.log('all stubs');
-    glob('**/*.json*', {
-        cwd: 'stubs',
-    }, function(er, files) {
-        res.json(files.map(function(loc) {
-            return {
-                name: path.basename(loc),
-                path: path.dirname(loc),
-                fullPath: loc
-            };
-        }));
-    });
-});
+    // parse application/json
+    router.use(bodyParser.json());
 
-router.post('/saveData', function(req, res) {
-    var file = 'stubs/' + req.body.path;
-    var obj = req.body.data;
-    var getDirName = require('path').dirname;
-    mkdirp(getDirName(file), function(err) {
-        if (err) return cb(err);
-        jsonfile.writeFile(file, obj, {
-            spaces: 2
-        }, function(err) {
-            console.error(err);
-            res.json(err);
+    router.use('/', express.static(path.join(__dirname, 'stubs-ui')));
+
+    router.get('/allStubs', function (req, res) {
+        console.log('all stubs');
+        glob('**/*.json*', {
+            cwd: 'stubs',
+        }, function (er, files) {
+            res.json(files.map(function (loc) {
+                return {
+                    name: path.basename(loc),
+                    path: path.dirname(loc),
+                    fullPath: loc
+                };
+            }));
         });
     });
-});
 
-router.use('/*', function(req, res) {
-    console.log('getting ' + req.baseUrl);
-    var file = path.join(process.cwd()+req.baseUrl + '.json');
-    setTimeout(function(){
-        console.log('return file',file);
-        res.sendFile(file);
-    },500);
-});
+    router.post('/saveData', function (req, res) {
+        var file = 'stubs/' + req.body.path;
+        var obj = req.body.data;
+        var getDirName = require('path').dirname;
+        mkdirp(getDirName(file), function (err) {
+            if (err) return cb(err);
+            jsonfile.writeFile(file, obj, {
+                spaces: 2
+            }, function (err) {
+                console.error(err);
+                res.json(err);
+            });
+        });
+    });
 
-router.use(function(err, req, res, next) {
-    console.log(err);
-    res.status(502).send('');
-});
+    app.use('/*', function (req, res) {
+        console.log('getting ' + req.baseUrl);
+        var file = path.join(process.cwd() + req.baseUrl + '.json');
+        setTimeout(function () {
+            console.log('return file', file);
+            res.sendFile(file);
+        }, 500);
+    });
 
-module.exports = router;
+    router.use(function (err, req, res, next) {
+        console.log(err);
+        res.status(502).send('');
+    });
+
+    return router;
+}
