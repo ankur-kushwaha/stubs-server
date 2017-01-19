@@ -1,6 +1,6 @@
 # Stubs Server
 
-This module is for creating and mocking API responses via json and stubs.
+UI interface for creating and mocking API responses via json stubs.
 
 ## Steps 
 
@@ -38,3 +38,7 @@ app.listen(9001, function() {
 
 ## UI Screenshot
 ![stubs-server](https://cloud.githubusercontent.com/assets/4962816/21962452/93464bac-db4c-11e6-82a9-65a73c9f9ce8.PNG)
+
+![image](https://cloud.githubusercontent.com/assets/4962816/22116568/e5f187fc-de96-11e6-84c0-7452835960ae.png)
+
+![image](https://cloud.githubusercontent.com/assets/4962816/22116652/2c460dd6-de97-11e6-8046-df4a5b40811e.png)
