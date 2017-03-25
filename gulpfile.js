@@ -49,7 +49,7 @@ gulp.task('bowerCopy', function () {
 });
 
 gulp.task('static', function () {
-    gulp.src('stubs-ui/libs/jsoneditor/dist/img/*')
+    gulp.src('stubs-ui/bower_components/jsoneditor/dist/img/*')
         .pipe(gulp.dest(config.buildDir + "img"));
 });
 
