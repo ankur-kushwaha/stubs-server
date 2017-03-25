@@ -18,7 +18,6 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "foundation-sites": "^6.2.3",
     "ng-jsoneditor": "angular-tools/ng-jsoneditor#^1.0.0",
     "toastr": "^2.1.3"
   }

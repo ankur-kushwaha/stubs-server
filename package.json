@@ -18,9 +18,7 @@
     "properties-reader": "0.0.15",
     "utils-fs-read-json5": "^1.0.0"
   },
-  "scripts": {
-    "postinstall": "bower install"
-  },
+  "scripts": {},
   "keywords": [
     "JSON",
     "node",
@@ -42,5 +40,15 @@
   "bugs": {
     "url": "https://github.com/ankur841/stubs-server/issues"
   },
-  "homepage": "https://github.com/ankur841/stubs-server"
+  "homepage": "https://github.com/ankur841/stubs-server",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-filter": "^5.0.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-uglify": "^2.1.2",
+    "main-bower-files": "^2.13.1",
+    "yargs": "^7.0.2"
+  }
 }

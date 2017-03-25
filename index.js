@@ -7,12 +7,12 @@ var glob = require('glob');
 var bodyParser = require('body-parser')
 
 module.exports = function (app) {
-
+    'use strict';
 
     // parse application/x-www-form-urlencoded
     router.use(bodyParser.urlencoded({
         extended: false
-    }))
+    }));
 
     // parse application/json
     router.use(bodyParser.json());
