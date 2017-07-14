@@ -54,10 +54,14 @@ module.exports = function (app,contextPath="/stubs") {
 
     app.use("/", router);
 
-    app.use('/*', function (req, res) {
+    app.use('/*', function (req, res,next) {
         var file = path.join(process.cwd() + '/stubs' + req.baseUrl + '.json');
         setTimeout(function () {
-            res.sendFile(file);
+            res.sendFile(file,{},function(err){
+                if(err){
+                    next();
+                }
+            });
         }, 500);
     });
 }
