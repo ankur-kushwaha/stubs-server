@@ -6,7 +6,7 @@ var path = require('path');
 var glob = require('glob');
 var bodyParser = require('body-parser')
 
-module.exports = function (app) {
+module.exports = function (app,contextPath="/stubs") {
     'use strict';
 
     // parse application/x-www-form-urlencoded
@@ -17,10 +17,9 @@ module.exports = function (app) {
     // parse application/json
     router.use(bodyParser.json());
 
-    router.use('/', express.static(path.join(__dirname, 'stubs-ui')));
+    router.use(contextPath, express.static(path.join(__dirname, 'stubs-ui')));
 
     router.get('/stubs/allStubs', function (req, res) {
-        console.log('all stubs');
         glob('**/*.json*', {
             cwd: 'stubs',
         }, function (er, files) {
@@ -49,19 +48,15 @@ module.exports = function (app) {
         });
     });
 
-
     router.use(function (err, req, res, next) {
-        console.log(err);
-        res.status(502).send('');
+        res.status(404).send('');
     });
 
     app.use("/", router);
 
     app.use('/*', function (req, res) {
-        console.log('getting ' + req.baseUrl);
         var file = path.join(process.cwd() + '/stubs' + req.baseUrl + '.json');
         setTimeout(function () {
-            console.log('return file', file);
             res.sendFile(file);
         }, 500);
     });
