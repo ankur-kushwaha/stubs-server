@@ -7,8 +7,6 @@ var glob = require('glob');
 var bodyParser = require('body-parser')
 
 module.exports = function (app,contextPath="/stubs") {
-    'use strict';
-
     // parse application/x-www-form-urlencoded
     router.use(bodyParser.urlencoded({
         extended: false
