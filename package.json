@@ -8,6 +8,9 @@
     "type": "git",
     "url": "git@github.com:ankur841/stubs-server.git"
   },
+  "bin": {
+    "stubs-server": "./bin/global.js"
+  },
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
@@ -42,7 +45,7 @@
   },
   "homepage": "https://github.com/ankur841/stubs-server",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-cssmin": "^0.1.7",
     "gulp-filter": "^5.0.0",

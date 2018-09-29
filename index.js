@@ -6,7 +6,7 @@ var path = require('path');
 var glob = require('glob');
 var bodyParser = require('body-parser')
 
-module.exports = function (app,contextPath="/stubs") {
+module.exports = function (app,contextPath="/") {
     // parse application/x-www-form-urlencoded
     router.use(bodyParser.urlencoded({
         extended: false
@@ -32,7 +32,7 @@ module.exports = function (app,contextPath="/stubs") {
     });
 
     router.post('/stubs/saveData', function (req, res) {
-        var file = 'stubs/' + req.body.path;
+        var file = path.join(process.cwd(),'stubs' , req.body.path);
         var obj = req.body.data;
         var getDirName = require('path').dirname;
         mkdirp(getDirName(file), function (err) {
@@ -54,6 +54,7 @@ module.exports = function (app,contextPath="/stubs") {
 
     app.use('/*', function (req, res,next) {
         var file = path.join(process.cwd() + '/stubs' + req.baseUrl + '.json');
+        console.log(file)
         setTimeout(function () {
             res.sendFile(file,{},function(err){
                 if(err){
