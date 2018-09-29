@@ -2,47 +2,12 @@
 
 UI interface for creating and mocking API responses via json stubs.
 
-## Steps 
+## Setup
 
-1. Install stubs-server usign `npm insall --save stubs-router`.
-2. Create an index.js file 
-
-```
-//'use strict';
-
-var express = require('express');
-var path = require('path');
-var app = express();
-var stubsServer=require('stubs-server');
-
-// Below lines are required only if you want to enable cors
-app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  next();
-});
-
-//Just add the below line to add stubs-server in your express app
-stubsServer(app);
-
-//you can also pass the context name here 
-//stubsServer(app,'/contextNameForStubs');
-// by default it is available on '/stubs'
-
-...
-// add your routes........
-... 
-
-//start the server on port 9001 or any port of your choice
-app.listen(9001, function() {
-    console.log('server started on 9001');
-});
-
-//module.exports = app;
-``` 
-
-3. Run the server using `node index.js`
-4. Open the stubs server UI on `http://localhost:9001/stubs`
+1. Create a folder 'stubs' which will contains all the json stubs files
+2. Just run `npx stubs-server` and your stubs will hosted on port 9001.
+3. Open `https://localhost:9001`, 
+4. This will open the stubs-ui console where you can create or edit your stubs.
 5. Create new stubs by clicking 'Create New Stub'.
 6. Type the 'api name'(e.g "test") and enter valid json and Click 'Add API'.
 7. Search for API, edit and save.
