@@ -1,6 +1,6 @@
 {
   "name": "stubs-server",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Module to mock API via json stubs",
   "main": "index.js",
   "license": "MIT",
