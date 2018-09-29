@@ -1,22 +1,14 @@
 <html>
 
 <head>
-    <!--<script src="libs/jquery/dist/jquery.min.js"></script>
-    <script src="libs/angular/angular.min.js"></script>
-    <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="libs/jsoneditor/dist/jsoneditor.min.js"></script>
-    <script src="libs/ng-jsoneditor/ng-jsoneditor.js"></script>
-    <script src="libs/toastr/toastr.js"></script>
-    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="libs/jsoneditor/dist/jsoneditor.min.css">
-    <link rel="stylesheet" href="libs/toastr/toastr.css">-->
+ 
     <link rel="stylesheet" href="vendor.css">
     <script src="vendor.js"></script>
     <script src="script.js"></script>
     <style>
         ul {
-            height: 100%;
             overflow: auto;
+            height: 80%;
         }
 
         li {
@@ -31,6 +23,30 @@
         li:hover {
             background-color: #d5ddf6;
         }
+        .panel-heading a{
+            color:white;
+        }
+        .panel-body{
+            height: 80%;
+        }
+        .raw-json-textarea.form-control{
+            height: 94%;
+        }
+        .header{
+            padding: 12px;
+            background: #337ab7;
+            margin-bottom: 10px;
+            color: white;
+            font-weight: bold;
+            font-size: x-large;
+        }
+        .footer{
+            margin-top:10px;
+        }
+        .json-editor{
+            width: 100%; 
+            height: 95%;
+        }
     </style>
 
     <script>
@@ -41,9 +57,12 @@
 </head>
 
 <body ng-app="ngApp" ng-controller="ngCtrl">
-    <div>
+    
+    <div class="container-fluid">
         <div class="row">
-
+            <div class="col-sm-12 header">
+                Stubs-Server
+            </div>
             <div class="col-sm-4">
 
                 <div class="panel panel-primary">
@@ -62,18 +81,23 @@
             </div>
             <div class="col-sm-8">
                 <div class="panel panel-primary">
-                    <div class="panel-heading">Data ({{selectedFile.path}}/{{selectedFile.name}}) <button type="button" class="btn btn-success pull-right"
-                            data-toggle="modal" data-target="#myModal">Create New Stub</button>
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                                <a target="_blank" href="{{selectedFile.path}}/{{selectedFile.name.replace('.json','')}}">{{selectedFile.path.substring(1)}}/{{selectedFile.name}}</a> <button type="button" class="btn btn-success pull-right"
+                                data-toggle="modal" data-target="#myModal">Create New Stub</button>
+                        </div>
+                        
                         <div class="clearfix"></div>
                     </div>
                     <div class="panel-body">
-                        <div ng-jsoneditor="onLoad" ng-model="obj.data" options="obj.options" style="width: 100%; height: 400px;" ng-show="!json"></div>
-                        <textarea class="form-control" rows=20 ng-model="json" ng-show="json"></textarea>
-                        <button type="button" class="btn btn-primary" ng-click="saveData()"><i class="fa fa-check-circle"></i> Save Data</button>
-
-                        <button type="button" class="btn btn-primary" ng-click="json=null" ng-show="json"><i class="fa fa-check-circle"></i> Show JSON Editor</button>
-                        <button type="button" ng-show="!json" class="btn btn-primary" ng-click="showEditableJson()"><i class="fa fa-check-circle"></i> Edit JSON</button>
-
+                        <div class="json-editor" ng-jsoneditor="onLoad" ng-model="obj.data" options="obj.options" ng-show="!json"></div>
+                        <textarea class="form-control raw-json-textarea" rows=20 ng-model="json" ng-show="json"></textarea>
+                        <div class="footer">
+                            <button type="button" class="btn btn-primary" ng-click="saveData()"><i class="fa fa-check-circle"></i> Save Data</button>
+                            <button type="button" class="btn btn-primary" ng-click="json=null" ng-show="json"><i class="fa fa-check-circle"></i> Show JSON Editor</button>
+                            <button type="button" ng-show="!json" class="btn btn-primary" ng-click="showEditableJson()"><i class="fa fa-check-circle"></i> Edit JSON</button>
+                        </div>
+                            
                     </div>
                 </div>
 
