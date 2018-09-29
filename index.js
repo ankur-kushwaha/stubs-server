@@ -46,7 +46,7 @@ module.exports = function (app,contextPath="/") {
         });
     });
 
-    router.use(function (err, req, res, next) {
+    router.use(function ( err, req, res, next) {
         res.status(404).send('');
     });
 
@@ -54,7 +54,7 @@ module.exports = function (app,contextPath="/") {
 
     app.use('/*', function (req, res,next) {
         var file = path.join(process.cwd() + '/stubs' + req.baseUrl + '.json');
-        console.log(file)
+        console.log("Returning stub from file: " +file);
         setTimeout(function () {
             res.sendFile(file,{},function(err){
                 if(err){
