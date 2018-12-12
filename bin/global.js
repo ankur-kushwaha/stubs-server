@@ -33,4 +33,8 @@ server.listen(9001, function(){
   console.log("server running at https://localhost:9001/")
 });
 
+app.listen(9000, function(){
+  console.log("server running at http://localhost:9000/")
+});
+
 //module.exports = app;
