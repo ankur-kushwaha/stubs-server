@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 var express = require('express');
+const argv = require('yargs').argv
 var fs = require('fs');
 var path = require('path');
 var app = express();
@@ -20,7 +21,9 @@ app.use(function(req, res, next) {
 });
 
 //Just add the below line to add stubs-server in your express app
-stubsServer(app);
+stubsServer(app,null,{
+  timeout:argv.timeout
+});
 
 //you can also pass the context name here 
 //stubsServer(app,'/contextNameForStubs');

@@ -5,8 +5,11 @@ var mkdirp = require('mkdirp');
 var path = require('path');
 var glob = require('glob');
 var bodyParser = require('body-parser')
+var defaultOptions={
+    timeout:500
+}
 
-module.exports = function (app,contextPath="/") {
+module.exports = function (app,contextPath="/",options) {
     // parse application/x-www-form-urlencoded
     router.use(bodyParser.urlencoded({
         extended: false
@@ -61,6 +64,6 @@ module.exports = function (app,contextPath="/") {
                     next();
                 }
             });
-        }, 500);
+        }, options.timeout||defaultOptions.timeout);
     });
 }

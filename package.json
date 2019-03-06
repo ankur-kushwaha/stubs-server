@@ -52,6 +52,6 @@
     "gulp-load-plugins": "^1.5.0",
     "gulp-uglify": "^2.1.2",
     "main-bower-files": "^2.13.1",
-    "yargs": "^7.0.2"
+    "yargs": "^7.1.0"
   }
 }
