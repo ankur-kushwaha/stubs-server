@@ -19,7 +19,8 @@
     "jsonfile": "^2.4.0",
     "lodash": "^4.14.0",
     "properties-reader": "0.0.15",
-    "utils-fs-read-json5": "^1.0.0"
+    "utils-fs-read-json5": "^1.0.0",
+    "yargs": "^7.1.0"
   },
   "scripts": {},
   "keywords": [
@@ -51,7 +52,6 @@
     "gulp-filter": "^5.0.0",
     "gulp-load-plugins": "^1.5.0",
     "gulp-uglify": "^2.1.2",
-    "main-bower-files": "^2.13.1",
-    "yargs": "^7.1.0"
+    "main-bower-files": "^2.13.1"
   }
 }

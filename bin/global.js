@@ -21,7 +21,7 @@ app.use(function(req, res, next) {
 });
 
 //Just add the below line to add stubs-server in your express app
-stubsServer(app,null,{
+stubsServer(app,{
   timeout:argv.timeout
 });
 

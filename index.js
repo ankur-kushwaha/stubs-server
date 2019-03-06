@@ -6,10 +6,11 @@ var path = require('path');
 var glob = require('glob');
 var bodyParser = require('body-parser')
 var defaultOptions={
-    timeout:500
+    timeout:500,
+    contextPath:"/"
 }
 
-module.exports = function (app,contextPath="/",options) {
+module.exports = function (app,options) {
     // parse application/x-www-form-urlencoded
     router.use(bodyParser.urlencoded({
         extended: false
@@ -18,7 +19,7 @@ module.exports = function (app,contextPath="/",options) {
     // parse application/json
     router.use(bodyParser.json());
 
-    router.use(contextPath, express.static(path.join(__dirname, 'stubs-ui')));
+    router.use(options.contextPath||defaultOptions.contextPath, express.static(path.join(__dirname, 'stubs-ui')));
 
     router.get('/stubs/allStubs', function (req, res) {
         glob('**/*.json*', {
