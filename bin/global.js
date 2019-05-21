@@ -7,11 +7,14 @@ var path = require('path');
 var app = express();
 var stubsServer=require('../index');
 var https = require('https');
-var options = {
-  cert: fs.readFileSync(path.join(__dirname,'../certificates/server.crt')),
-  key: fs.readFileSync(path.join(__dirname,'../certificates/server.key'))
-};
 
+var privateKey = fs.readFileSync('certificates/privatekey.pem').toString();
+var certificate = fs.readFileSync('certificates/certificate.pem').toString();
+
+var options = {
+  cert: certificate,
+  key: privateKey
+};
 
 // Below lines are required only if you want to enable cors
 app.use(function(req, res, next) {
