@@ -8,8 +8,8 @@ var app = express();
 var stubsServer=require('../index');
 var https = require('https');
 
-var privateKey = fs.readFileSync('certificates/privatekey.pem').toString();
-var certificate = fs.readFileSync('certificates/certificate.pem').toString();
+var privateKey = fs.readFileSync('../certificates/privatekey.pem').toString();
+var certificate = fs.readFileSync('../certificates/certificate.pem').toString();
 
 var options = {
   cert: certificate,
