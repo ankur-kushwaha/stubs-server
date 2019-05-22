@@ -14,6 +14,11 @@ UI interface for creating and mocking API responses via json stubs.
 8. Test your mock api by going to browser "http://localhost:9001/test".
 9. Your other routes will work as normal.
 
+## HTTPS
+This will also spawn an HTTPS server on port 9001(https://localhost:9001). The public file for https certificate is available at `./certificates/publickey.pub`. 
+[Download public key](https://github.com/ankur-kushwaha/stubs-server/blob/master/certificates/publickey.pub)
+
+
 ## UI Screenshot
 ![stubs-server](https://cloud.githubusercontent.com/assets/4962816/21962452/93464bac-db4c-11e6-82a9-65a73c9f9ce8.PNG)
 
